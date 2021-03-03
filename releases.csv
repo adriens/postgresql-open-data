@@ -1,4 +1,4 @@
-global,version,current_miunsupportedr,support_status,first_release,final_release
+global,version,current_minor,support_status,first_release,final_release
 13,13,13.2,supported,2020/09/24,2025/11/13
 12,12,12.6,supported,2019/10/03,2024/11/14
 11,11,11.11,supported,2018/10/18,2023/11/09
