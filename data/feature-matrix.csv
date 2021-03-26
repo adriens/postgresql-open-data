@@ -339,11 +339,11 @@ Configuration Management,ALTER SYSTEM,https://www.postgresql.org/docs/9.4/static
 Configuration Management,ALTER SYSTEM,https://www.postgresql.org/docs/9.4/static/sql-altersystem.html,11,yes
 Configuration Management,ALTER SYSTEM,https://www.postgresql.org/docs/9.4/static/sql-altersystem.html,10,yes
 Configuration Management,ALTER SYSTEM,https://www.postgresql.org/docs/9.4/static/sql-altersystem.html,9.6,yes
-Configuration Management,Fractional input for "integer" values,https://www.postgresql.org/about/featurematrix/detail/329/,13,yes
-Configuration Management,Fractional input for "integer" values,https://www.postgresql.org/about/featurematrix/detail/329/,12,yes
-Configuration Management,Fractional input for "integer" values,https://www.postgresql.org/about/featurematrix/detail/329/,11,no
-Configuration Management,Fractional input for "integer" values,https://www.postgresql.org/about/featurematrix/detail/329/,10,no
-Configuration Management,Fractional input for "integer" values,https://www.postgresql.org/about/featurematrix/detail/329/,9.6,no
+Configuration Management,Fractional input for integer values,https://www.postgresql.org/about/featurematrix/detail/329/,13,yes
+Configuration Management,Fractional input for integer values,https://www.postgresql.org/about/featurematrix/detail/329/,12,yes
+Configuration Management,Fractional input for integer values,https://www.postgresql.org/about/featurematrix/detail/329/,11,no
+Configuration Management,Fractional input for integer values,https://www.postgresql.org/about/featurematrix/detail/329/,10,no
+Configuration Management,Fractional input for integer values,https://www.postgresql.org/about/featurematrix/detail/329/,9.6,no
 Configuration Management,Per user/database server configuration settings,https://www.postgresql.org/about/featurematrix/detail/170/,13,yes
 Configuration Management,Per user/database server configuration settings,https://www.postgresql.org/about/featurematrix/detail/170/,12,yes
 Configuration Management,Per user/database server configuration settings,https://www.postgresql.org/about/featurematrix/detail/170/,11,yes
