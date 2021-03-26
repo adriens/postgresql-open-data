@@ -99,11 +99,11 @@ Performance,CREATE STATISTICS - multicolumn,https://www.postgresql.org/about/fea
 Performance,CREATE STATISTICS - multicolumn,https://www.postgresql.org/about/featurematrix/detail/317/,11,no
 Performance,CREATE STATISTICS - multicolumn,https://www.postgresql.org/about/featurematrix/detail/317/,10,no
 Performance,CREATE STATISTICS - multicolumn,https://www.postgresql.org/about/featurematrix/detail/317/,9.6,no
-Performance,CREATE STATISTICS - "OR" and "IN/ANY" statistics,https://www.postgresql.org/about/featurematrix/detail/335/,13,yes
-Performance,CREATE STATISTICS - "OR" and "IN/ANY" statistics,https://www.postgresql.org/about/featurematrix/detail/335/,12,no
-Performance,CREATE STATISTICS - "OR" and "IN/ANY" statistics,https://www.postgresql.org/about/featurematrix/detail/335/,11,no
-Performance,CREATE STATISTICS - "OR" and "IN/ANY" statistics,https://www.postgresql.org/about/featurematrix/detail/335/,10,no
-Performance,CREATE STATISTICS - "OR" and "IN/ANY" statistics,https://www.postgresql.org/about/featurematrix/detail/335/,9.6,no
+Performance,CREATE STATISTICS - OR and IN/ANY statistics,https://www.postgresql.org/about/featurematrix/detail/335/,13,yes
+Performance,CREATE STATISTICS - OR and IN/ANY statistics,https://www.postgresql.org/about/featurematrix/detail/335/,12,no
+Performance,CREATE STATISTICS - OR and IN/ANY statistics,https://www.postgresql.org/about/featurematrix/detail/335/,11,no
+Performance,CREATE STATISTICS - OR and IN/ANY statistics,https://www.postgresql.org/about/featurematrix/detail/335/,10,no
+Performance,CREATE STATISTICS - OR and IN/ANY statistics,https://www.postgresql.org/about/featurematrix/detail/335/,9.6,no
 Performance,Hash aggregation can use disk,https://www.postgresql.org/about/featurematrix/detail/336/,13,yes
 Performance,Hash aggregation can use disk,https://www.postgresql.org/about/featurematrix/detail/336/,12,no
 Performance,Hash aggregation can use disk,https://www.postgresql.org/about/featurematrix/detail/336/,11,no
