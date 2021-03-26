@@ -1,0 +1,976 @@
+category,feature,feature_url,version,support
+Backend,EXPLAIN (WAL) support,https://www.postgresql.org/about/featurematrix/detail/348/,13,true
+Backend,EXPLAIN (WAL) support,https://www.postgresql.org/about/featurematrix/detail/348/,12,false
+Backend,EXPLAIN (WAL) support,https://www.postgresql.org/about/featurematrix/detail/348/,11,false
+Backend,EXPLAIN (WAL) support,https://www.postgresql.org/about/featurematrix/detail/348/,10,false
+Backend,EXPLAIN (WAL) support,https://www.postgresql.org/about/featurematrix/detail/348/,9.6,false
+Backend,Inserted data can trigger autovacuum,https://www.postgresql.org/about/featurematrix/detail/341/,13,true
+Backend,Inserted data can trigger autovacuum,https://www.postgresql.org/about/featurematrix/detail/341/,12,false
+Backend,Inserted data can trigger autovacuum,https://www.postgresql.org/about/featurematrix/detail/341/,11,false
+Backend,Inserted data can trigger autovacuum,https://www.postgresql.org/about/featurematrix/detail/341/,10,false
+Backend,Inserted data can trigger autovacuum,https://www.postgresql.org/about/featurematrix/detail/341/,9.6,false
+Backend,Parallelized VACUUM for Indexes,https://www.postgresql.org/about/featurematrix/detail/340/,13,true
+Backend,Parallelized VACUUM for Indexes,https://www.postgresql.org/about/featurematrix/detail/340/,12,false
+Backend,Parallelized VACUUM for Indexes,https://www.postgresql.org/about/featurematrix/detail/340/,11,false
+Backend,Parallelized VACUUM for Indexes,https://www.postgresql.org/about/featurematrix/detail/340/,10,false
+Backend,Parallelized VACUUM for Indexes,https://www.postgresql.org/about/featurematrix/detail/340/,9.6,false
+"Data Types, Functions, & Operators",macaddr8 data type,https://www.postgresql.org/docs/10/datatype-net-types.html#datatype-macaddr8,13,yes
+"Data Types, Functions, & Operators",macaddr8 data type,https://www.postgresql.org/docs/10/datatype-net-types.html#datatype-macaddr8,12,yes
+"Data Types, Functions, & Operators",macaddr8 data type,https://www.postgresql.org/docs/10/datatype-net-types.html#datatype-macaddr8,11,yes
+"Data Types, Functions, & Operators",macaddr8 data type,https://www.postgresql.org/docs/10/datatype-net-types.html#datatype-macaddr8,10,yes
+"Data Types, Functions, & Operators",macaddr8 data type,https://www.postgresql.org/docs/10/datatype-net-types.html#datatype-macaddr8,9.6,no
+"Data Types, Functions, & Operators",SQL/JSON: datetime(),https://www.postgresql.org/about/featurematrix/detail/346/,13,yes
+"Data Types, Functions, & Operators",SQL/JSON: datetime(),https://www.postgresql.org/about/featurematrix/detail/346/,12,no
+"Data Types, Functions, & Operators",SQL/JSON: datetime(),https://www.postgresql.org/about/featurematrix/detail/346/,11,no
+"Data Types, Functions, & Operators",SQL/JSON: datetime(),https://www.postgresql.org/about/featurematrix/detail/346/,10,no
+"Data Types, Functions, & Operators",SQL/JSON: datetime(),https://www.postgresql.org/about/featurematrix/detail/346/,9.6,no
+Indexing & Constraints,B-tree deduplication,https://www.postgresql.org/docs/13/btree-implementation.html#BTREE-DEDUPLICATION,13,yes
+Indexing & Constraints,B-tree deduplication,https://www.postgresql.org/docs/13/btree-implementation.html#BTREE-DEDUPLICATION,12,no
+Indexing & Constraints,B-tree deduplication,https://www.postgresql.org/docs/13/btree-implementation.html#BTREE-DEDUPLICATION,11,no
+Indexing & Constraints,B-tree deduplication,https://www.postgresql.org/docs/13/btree-implementation.html#BTREE-DEDUPLICATION,10,no
+Indexing & Constraints,B-tree deduplication,https://www.postgresql.org/docs/13/btree-implementation.html#BTREE-DEDUPLICATION,9.6,no
+Indexing & Constraints,Covering Indexes for B-trees (INCLUDE),https://www.postgresql.org/about/featurematrix/detail/313/,13,yes
+Indexing & Constraints,Covering Indexes for B-trees (INCLUDE),https://www.postgresql.org/about/featurematrix/detail/313/,12,yes
+Indexing & Constraints,Covering Indexes for B-trees (INCLUDE),https://www.postgresql.org/about/featurematrix/detail/313/,11,yes
+Indexing & Constraints,Covering Indexes for B-trees (INCLUDE),https://www.postgresql.org/about/featurematrix/detail/313/,10,no
+Indexing & Constraints,Covering Indexes for B-trees (INCLUDE),https://www.postgresql.org/about/featurematrix/detail/313/,9.6,no
+Indexing & Constraints,Covering indexes for GiST (INCLUDE),https://www.postgresql.org/about/featurematrix/detail/314/,13,yes
+Indexing & Constraints,Covering indexes for GiST (INCLUDE),https://www.postgresql.org/about/featurematrix/detail/314/,12,yes
+Indexing & Constraints,Covering indexes for GiST (INCLUDE),https://www.postgresql.org/about/featurematrix/detail/314/,11,no
+Indexing & Constraints,Covering indexes for GiST (INCLUDE),https://www.postgresql.org/about/featurematrix/detail/314/,10,no
+Indexing & Constraints,Covering indexes for GiST (INCLUDE),https://www.postgresql.org/about/featurematrix/detail/314/,9.6,no
+Indexing & Constraints,K-nearest neighbor SP-GiST Support,https://www.postgresql.org/about/featurematrix/detail/316/,13,yes
+Indexing & Constraints,K-nearest neighbor SP-GiST Support,https://www.postgresql.org/about/featurematrix/detail/316/,12,yes
+Indexing & Constraints,K-nearest neighbor SP-GiST Support,https://www.postgresql.org/about/featurematrix/detail/316/,11,no
+Indexing & Constraints,K-nearest neighbor SP-GiST Support,https://www.postgresql.org/about/featurematrix/detail/316/,10,no
+Indexing & Constraints,K-nearest neighbor SP-GiST Support,https://www.postgresql.org/about/featurematrix/detail/316/,9.6,no
+Indexing & Constraints,Parallel B-tree index scans,https://www.postgresql.org/about/featurematrix/detail/297/,13,yes
+Indexing & Constraints,Parallel B-tree index scans,https://www.postgresql.org/about/featurematrix/detail/297/,12,yes
+Indexing & Constraints,Parallel B-tree index scans,https://www.postgresql.org/about/featurematrix/detail/297/,11,yes
+Indexing & Constraints,Parallel B-tree index scans,https://www.postgresql.org/about/featurematrix/detail/297/,10,yes
+Indexing & Constraints,Parallel B-tree index scans,https://www.postgresql.org/about/featurematrix/detail/297/,9.6,no
+Indexing & Constraints,Parallelized CREATE INDEX for B-tree indexes,,13,yes
+Indexing & Constraints,Parallelized CREATE INDEX for B-tree indexes,,12,yes
+Indexing & Constraints,Parallelized CREATE INDEX for B-tree indexes,,11,yes
+Indexing & Constraints,Parallelized CREATE INDEX for B-tree indexes,,10,no
+Indexing & Constraints,Parallelized CREATE INDEX for B-tree indexes,,9.6,no
+Indexing & Constraints,WAL support for hash indexes,https://www.postgresql.org/about/featurematrix/detail/300/,13,yes
+Indexing & Constraints,WAL support for hash indexes,https://www.postgresql.org/about/featurematrix/detail/300/,12,yes
+Indexing & Constraints,WAL support for hash indexes,https://www.postgresql.org/about/featurematrix/detail/300/,11,yes
+Indexing & Constraints,WAL support for hash indexes,https://www.postgresql.org/about/featurematrix/detail/300/,10,yes
+Indexing & Constraints,WAL support for hash indexes,https://www.postgresql.org/about/featurematrix/detail/300/,9.6,no
+SQL,FETCH FIRST .. WITH TIES,https://www.postgresql.org/docs/13/sql-select.html#SQL-LIMIT,13,yes
+SQL,FETCH FIRST .. WITH TIES,https://www.postgresql.org/docs/13/sql-select.html#SQL-LIMIT,12,no
+SQL,FETCH FIRST .. WITH TIES,https://www.postgresql.org/docs/13/sql-select.html#SQL-LIMIT,11,no
+SQL,FETCH FIRST .. WITH TIES,https://www.postgresql.org/docs/13/sql-select.html#SQL-LIMIT,10,no
+SQL,FETCH FIRST .. WITH TIES,https://www.postgresql.org/docs/13/sql-select.html#SQL-LIMIT,9.6,no
+SQL,SQL/JSON path expressions,https://www.postgresql.org/docs/current/functions-json.html#FUNCTIONS-SQLJSON-PATH,13,yes
+SQL,SQL/JSON path expressions,https://www.postgresql.org/docs/current/functions-json.html#FUNCTIONS-SQLJSON-PATH,12,yes
+SQL,SQL/JSON path expressions,https://www.postgresql.org/docs/current/functions-json.html#FUNCTIONS-SQLJSON-PATH,11,no
+SQL,SQL/JSON path expressions,https://www.postgresql.org/docs/current/functions-json.html#FUNCTIONS-SQLJSON-PATH,10,no
+SQL,SQL/JSON path expressions,https://www.postgresql.org/docs/current/functions-json.html#FUNCTIONS-SQLJSON-PATH,9.6,no
+Data Definition Language (DDL),CREATE ACCESS METHOD,https://www.postgresql.org/docs/12/sql-create-access-method.html,13,yes
+Data Definition Language (DDL),CREATE ACCESS METHOD,https://www.postgresql.org/docs/12/sql-create-access-method.html,12,yes
+Data Definition Language (DDL),CREATE ACCESS METHOD,https://www.postgresql.org/docs/12/sql-create-access-method.html,11,no
+Data Definition Language (DDL),CREATE ACCESS METHOD,https://www.postgresql.org/docs/12/sql-create-access-method.html,10,no
+Data Definition Language (DDL),CREATE ACCESS METHOD,https://www.postgresql.org/docs/12/sql-create-access-method.html,9.6,no
+Data Definition Language (DDL),REINDEX CONCURRENTLY,https://www.postgresql.org/docs/current/sql-reindex.html#SQL-REINDEX-CONCURRENTLY,13,yes
+Data Definition Language (DDL),REINDEX CONCURRENTLY,https://www.postgresql.org/docs/current/sql-reindex.html#SQL-REINDEX-CONCURRENTLY,12,yes
+Data Definition Language (DDL),REINDEX CONCURRENTLY,https://www.postgresql.org/docs/current/sql-reindex.html#SQL-REINDEX-CONCURRENTLY,11,no
+Data Definition Language (DDL),REINDEX CONCURRENTLY,https://www.postgresql.org/docs/current/sql-reindex.html#SQL-REINDEX-CONCURRENTLY,10,no
+Data Definition Language (DDL),REINDEX CONCURRENTLY,https://www.postgresql.org/docs/current/sql-reindex.html#SQL-REINDEX-CONCURRENTLY,9.6,no
+Data Definition Language (DDL),Stored Generated Columns,https://www.postgresql.org/docs/current/ddl-generated-columns.html,13,yes
+Data Definition Language (DDL),Stored Generated Columns,https://www.postgresql.org/docs/current/ddl-generated-columns.html,12,yes
+Data Definition Language (DDL),Stored Generated Columns,https://www.postgresql.org/docs/current/ddl-generated-columns.html,11,no
+Data Definition Language (DDL),Stored Generated Columns,https://www.postgresql.org/docs/current/ddl-generated-columns.html,10,no
+Data Definition Language (DDL),Stored Generated Columns,https://www.postgresql.org/docs/current/ddl-generated-columns.html,9.6,no
+Performance,Accelerated partition pruning,https://www.postgresql.org/about/featurematrix/detail/320/,13,yes
+Performance,Accelerated partition pruning,https://www.postgresql.org/about/featurematrix/detail/320/,12,yes
+Performance,Accelerated partition pruning,https://www.postgresql.org/about/featurematrix/detail/320/,11,no
+Performance,Accelerated partition pruning,https://www.postgresql.org/about/featurematrix/detail/320/,10,no
+Performance,Accelerated partition pruning,https://www.postgresql.org/about/featurematrix/detail/320/,9.6,no
+Performance,CREATE STATISTICS - most-common values (MCV) statistics,https://www.postgresql.org/about/featurematrix/detail/318/,13,yes
+Performance,CREATE STATISTICS - most-common values (MCV) statistics,https://www.postgresql.org/about/featurematrix/detail/318/,12,yes
+Performance,CREATE STATISTICS - most-common values (MCV) statistics,https://www.postgresql.org/about/featurematrix/detail/318/,11,no
+Performance,CREATE STATISTICS - most-common values (MCV) statistics,https://www.postgresql.org/about/featurematrix/detail/318/,10,no
+Performance,CREATE STATISTICS - most-common values (MCV) statistics,https://www.postgresql.org/about/featurematrix/detail/318/,9.6,no
+Performance,CREATE STATISTICS - multicolumn,https://www.postgresql.org/about/featurematrix/detail/317/,13,yes
+Performance,CREATE STATISTICS - multicolumn,https://www.postgresql.org/about/featurematrix/detail/317/,12,yes
+Performance,CREATE STATISTICS - multicolumn,https://www.postgresql.org/about/featurematrix/detail/317/,11,no
+Performance,CREATE STATISTICS - multicolumn,https://www.postgresql.org/about/featurematrix/detail/317/,10,no
+Performance,CREATE STATISTICS - multicolumn,https://www.postgresql.org/about/featurematrix/detail/317/,9.6,no
+Performance,CREATE STATISTICS - "OR" and "IN/ANY" statistics,https://www.postgresql.org/about/featurematrix/detail/335/,13,yes
+Performance,CREATE STATISTICS - "OR" and "IN/ANY" statistics,https://www.postgresql.org/about/featurematrix/detail/335/,12,no
+Performance,CREATE STATISTICS - "OR" and "IN/ANY" statistics,https://www.postgresql.org/about/featurematrix/detail/335/,11,no
+Performance,CREATE STATISTICS - "OR" and "IN/ANY" statistics,https://www.postgresql.org/about/featurematrix/detail/335/,10,no
+Performance,CREATE STATISTICS - "OR" and "IN/ANY" statistics,https://www.postgresql.org/about/featurematrix/detail/335/,9.6,no
+Performance,Hash aggregation can use disk,https://www.postgresql.org/about/featurematrix/detail/336/,13,yes
+Performance,Hash aggregation can use disk,https://www.postgresql.org/about/featurematrix/detail/336/,12,no
+Performance,Hash aggregation can use disk,https://www.postgresql.org/about/featurematrix/detail/336/,11,no
+Performance,Hash aggregation can use disk,https://www.postgresql.org/about/featurematrix/detail/336/,10,no
+Performance,Hash aggregation can use disk,https://www.postgresql.org/about/featurematrix/detail/336/,9.6,no
+Performance,Incremental sort,https://www.postgresql.org/docs/13/runtime-config-query.html#GUC-ENABLE-INCREMENTAL-SORT,13,yes
+Performance,Incremental sort,https://www.postgresql.org/docs/13/runtime-config-query.html#GUC-ENABLE-INCREMENTAL-SORT,12,no
+Performance,Incremental sort,https://www.postgresql.org/docs/13/runtime-config-query.html#GUC-ENABLE-INCREMENTAL-SORT,11,no
+Performance,Incremental sort,https://www.postgresql.org/docs/13/runtime-config-query.html#GUC-ENABLE-INCREMENTAL-SORT,10,no
+Performance,Incremental sort,https://www.postgresql.org/docs/13/runtime-config-query.html#GUC-ENABLE-INCREMENTAL-SORT,9.6,no
+Performance,Inlined WITH Queries (Common Table Expressions),https://www.postgresql.org/about/featurematrix/detail/321/,13,yes
+Performance,Inlined WITH Queries (Common Table Expressions),https://www.postgresql.org/about/featurematrix/detail/321/,12,yes
+Performance,Inlined WITH Queries (Common Table Expressions),https://www.postgresql.org/about/featurematrix/detail/321/,11,no
+Performance,Inlined WITH Queries (Common Table Expressions),https://www.postgresql.org/about/featurematrix/detail/321/,10,no
+Performance,Inlined WITH Queries (Common Table Expressions),https://www.postgresql.org/about/featurematrix/detail/321/,9.6,no
+Performance,Just-in-Time (JIT) compilation for expression evaluation and tuple deforming,https://www.postgresql.org/docs/current/static/jit.html,13,yes
+Performance,Just-in-Time (JIT) compilation for expression evaluation and tuple deforming,https://www.postgresql.org/docs/current/static/jit.html,12,yes
+Performance,Just-in-Time (JIT) compilation for expression evaluation and tuple deforming,https://www.postgresql.org/docs/current/static/jit.html,11,yes
+Performance,Just-in-Time (JIT) compilation for expression evaluation and tuple deforming,https://www.postgresql.org/docs/current/static/jit.html,10,no
+Performance,Just-in-Time (JIT) compilation for expression evaluation and tuple deforming,https://www.postgresql.org/docs/current/static/jit.html,9.6,no
+Performance,Parallel bitmap heap scans,https://www.postgresql.org/about/featurematrix/detail/298/,13,yes
+Performance,Parallel bitmap heap scans,https://www.postgresql.org/about/featurematrix/detail/298/,12,yes
+Performance,Parallel bitmap heap scans,https://www.postgresql.org/about/featurematrix/detail/298/,11,yes
+Performance,Parallel bitmap heap scans,https://www.postgresql.org/about/featurematrix/detail/298/,10,yes
+Performance,Parallel bitmap heap scans,https://www.postgresql.org/about/featurematrix/detail/298/,9.6,no
+Performance,Parallel hash joins,https://www.postgresql.org/docs/current/parallel-plans.html#PARALLEL-JOINS,13,yes
+Performance,Parallel hash joins,https://www.postgresql.org/docs/current/parallel-plans.html#PARALLEL-JOINS,12,yes
+Performance,Parallel hash joins,https://www.postgresql.org/docs/current/parallel-plans.html#PARALLEL-JOINS,11,yes
+Performance,Parallel hash joins,https://www.postgresql.org/docs/current/parallel-plans.html#PARALLEL-JOINS,10,no
+Performance,Parallel hash joins,https://www.postgresql.org/docs/current/parallel-plans.html#PARALLEL-JOINS,9.6,no
+Performance,Parallel merge joins,https://www.postgresql.org/about/featurematrix/detail/299/,13,yes
+Performance,Parallel merge joins,https://www.postgresql.org/about/featurematrix/detail/299/,12,yes
+Performance,Parallel merge joins,https://www.postgresql.org/about/featurematrix/detail/299/,11,yes
+Performance,Parallel merge joins,https://www.postgresql.org/about/featurematrix/detail/299/,10,yes
+Performance,Parallel merge joins,https://www.postgresql.org/about/featurematrix/detail/299/,9.6,no
+Performance,Partition pruning during query execution,https://www.postgresql.org/about/featurematrix/detail/332/,13,yes
+Performance,Partition pruning during query execution,https://www.postgresql.org/about/featurematrix/detail/332/,12,yes
+Performance,Partition pruning during query execution,https://www.postgresql.org/about/featurematrix/detail/332/,11,yes
+Performance,Partition pruning during query execution,https://www.postgresql.org/about/featurematrix/detail/332/,10,no
+Performance,Partition pruning during query execution,https://www.postgresql.org/about/featurematrix/detail/332/,9.6,no
+Partitioning & Inheritance,Declarative table partitioning,https://www.postgresql.org/docs/10/static/ddl-partitioning.html#ddl-partitioning-declarative,13,yes
+Partitioning & Inheritance,Declarative table partitioning,https://www.postgresql.org/docs/10/static/ddl-partitioning.html#ddl-partitioning-declarative,12,yes
+Partitioning & Inheritance,Declarative table partitioning,https://www.postgresql.org/docs/10/static/ddl-partitioning.html#ddl-partitioning-declarative,11,yes
+Partitioning & Inheritance,Declarative table partitioning,https://www.postgresql.org/docs/10/static/ddl-partitioning.html#ddl-partitioning-declarative,10,yes
+Partitioning & Inheritance,Declarative table partitioning,https://www.postgresql.org/docs/10/static/ddl-partitioning.html#ddl-partitioning-declarative,9.6,no
+Partitioning & Inheritance,Default Partition,https://www.postgresql.org/about/featurematrix/detail/311/,13,yes
+Partitioning & Inheritance,Default Partition,https://www.postgresql.org/about/featurematrix/detail/311/,12,yes
+Partitioning & Inheritance,Default Partition,https://www.postgresql.org/about/featurematrix/detail/311/,11,yes
+Partitioning & Inheritance,Default Partition,https://www.postgresql.org/about/featurematrix/detail/311/,10,no
+Partitioning & Inheritance,Default Partition,https://www.postgresql.org/about/featurematrix/detail/311/,9.6,no
+Partitioning & Inheritance,Foreign Key references for partitioned tables,https://www.postgresql.org/about/featurematrix/detail/319/,13,yes
+Partitioning & Inheritance,Foreign Key references for partitioned tables,https://www.postgresql.org/about/featurematrix/detail/319/,12,yes
+Partitioning & Inheritance,Foreign Key references for partitioned tables,https://www.postgresql.org/about/featurematrix/detail/319/,11,no
+Partitioning & Inheritance,Foreign Key references for partitioned tables,https://www.postgresql.org/about/featurematrix/detail/319/,10,no
+Partitioning & Inheritance,Foreign Key references for partitioned tables,https://www.postgresql.org/about/featurematrix/detail/319/,9.6,no
+Partitioning & Inheritance,Logical Replication for Partitioned Tables,https://www.postgresql.org/about/featurematrix/detail/345/,13,yes
+Partitioning & Inheritance,Logical Replication for Partitioned Tables,https://www.postgresql.org/about/featurematrix/detail/345/,12,no
+Partitioning & Inheritance,Logical Replication for Partitioned Tables,https://www.postgresql.org/about/featurematrix/detail/345/,11,no
+Partitioning & Inheritance,Logical Replication for Partitioned Tables,https://www.postgresql.org/about/featurematrix/detail/345/,10,no
+Partitioning & Inheritance,Logical Replication for Partitioned Tables,https://www.postgresql.org/about/featurematrix/detail/345/,9.6,no
+Partitioning & Inheritance,Partitioning by a hash key ,,13,yes
+Partitioning & Inheritance,Partitioning by a hash key ,,12,yes
+Partitioning & Inheritance,Partitioning by a hash key ,,11,yes
+Partitioning & Inheritance,Partitioning by a hash key ,,10,no
+Partitioning & Inheritance,Partitioning by a hash key ,,9.6,no
+Partitioning & Inheritance,Support for PRIMARY KEY, FOREIGN KEY, indexes, and triggers on partitioned tables,,13,yes
+Partitioning & Inheritance,Support for PRIMARY KEY, FOREIGN KEY, indexes, and triggers on partitioned tables,,12,yes
+Partitioning & Inheritance,Support for PRIMARY KEY, FOREIGN KEY, indexes, and triggers on partitioned tables,,11,yes
+Partitioning & Inheritance,Support for PRIMARY KEY, FOREIGN KEY, indexes, and triggers on partitioned tables,,10,no
+Partitioning & Inheritance,Support for PRIMARY KEY, FOREIGN KEY, indexes, and triggers on partitioned tables,,9.6,no
+Partitioning & Inheritance,UPDATE on a partition key,https://www.postgresql.org/about/featurematrix/detail/312/,13,yes
+Partitioning & Inheritance,UPDATE on a partition key,https://www.postgresql.org/about/featurematrix/detail/312/,12,yes
+Partitioning & Inheritance,UPDATE on a partition key,https://www.postgresql.org/about/featurematrix/detail/312/,11,yes
+Partitioning & Inheritance,UPDATE on a partition key,https://www.postgresql.org/about/featurematrix/detail/312/,10,no
+Partitioning & Inheritance,UPDATE on a partition key,https://www.postgresql.org/about/featurematrix/detail/312/,9.6,no
+Views & Materialized Views,Materialized Views,https://www.postgresql.org/docs/current/static/rules-materializedviews.html,13,yes
+Views & Materialized Views,Materialized Views,https://www.postgresql.org/docs/current/static/rules-materializedviews.html,12,yes
+Views & Materialized Views,Materialized Views,https://www.postgresql.org/docs/current/static/rules-materializedviews.html,11,yes
+Views & Materialized Views,Materialized Views,https://www.postgresql.org/docs/current/static/rules-materializedviews.html,10,yes
+Views & Materialized Views,Materialized Views,https://www.postgresql.org/docs/current/static/rules-materializedviews.html,9.6,yes
+Views & Materialized Views,Materialized views with concurrent refresh,https://www.postgresql.org/about/featurematrix/detail/251/,13,yes
+Views & Materialized Views,Materialized views with concurrent refresh,https://www.postgresql.org/about/featurematrix/detail/251/,12,yes
+Views & Materialized Views,Materialized views with concurrent refresh,https://www.postgresql.org/about/featurematrix/detail/251/,11,yes
+Views & Materialized Views,Materialized views with concurrent refresh,https://www.postgresql.org/about/featurematrix/detail/251/,10,yes
+Views & Materialized Views,Materialized views with concurrent refresh,https://www.postgresql.org/about/featurematrix/detail/251/,9.6,yes
+Views & Materialized Views,Temporary VIEWs,https://www.postgresql.org/about/featurematrix/detail/56/,13,yes
+Views & Materialized Views,Temporary VIEWs,https://www.postgresql.org/about/featurematrix/detail/56/,12,yes
+Views & Materialized Views,Temporary VIEWs,https://www.postgresql.org/about/featurematrix/detail/56/,11,yes
+Views & Materialized Views,Temporary VIEWs,https://www.postgresql.org/about/featurematrix/detail/56/,10,yes
+Views & Materialized Views,Temporary VIEWs,https://www.postgresql.org/about/featurematrix/detail/56/,9.6,yes
+Views & Materialized Views,Updatable views,https://www.postgresql.org/about/featurematrix/detail/234/,13,yes
+Views & Materialized Views,Updatable views,https://www.postgresql.org/about/featurematrix/detail/234/,12,yes
+Views & Materialized Views,Updatable views,https://www.postgresql.org/about/featurematrix/detail/234/,11,yes
+Views & Materialized Views,Updatable views,https://www.postgresql.org/about/featurematrix/detail/234/,10,yes
+Views & Materialized Views,Updatable views,https://www.postgresql.org/about/featurematrix/detail/234/,9.6,yes
+Views & Materialized Views,WITH CHECK clause,https://www.postgresql.org/about/featurematrix/detail/264/,13,yes
+Views & Materialized Views,WITH CHECK clause,https://www.postgresql.org/about/featurematrix/detail/264/,12,yes
+Views & Materialized Views,WITH CHECK clause,https://www.postgresql.org/about/featurematrix/detail/264/,11,yes
+Views & Materialized Views,WITH CHECK clause,https://www.postgresql.org/about/featurematrix/detail/264/,10,yes
+Views & Materialized Views,WITH CHECK clause,https://www.postgresql.org/about/featurematrix/detail/264/,9.6,yes
+"Backup, Restore, Data Integrity, & Replication",Cascading streaming replication,https://www.postgresql.org/about/featurematrix/detail/219/,13,yes
+"Backup, Restore, Data Integrity, & Replication",Cascading streaming replication,https://www.postgresql.org/about/featurematrix/detail/219/,12,yes
+"Backup, Restore, Data Integrity, & Replication",Cascading streaming replication,https://www.postgresql.org/about/featurematrix/detail/219/,11,yes
+"Backup, Restore, Data Integrity, & Replication",Cascading streaming replication,https://www.postgresql.org/about/featurematrix/detail/219/,10,yes
+"Backup, Restore, Data Integrity, & Replication",Cascading streaming replication,https://www.postgresql.org/about/featurematrix/detail/219/,9.6,yes
+"Backup, Restore, Data Integrity, & Replication",Checksum on data pages,https://www.postgresql.org/about/featurematrix/detail/243/,13,yes
+"Backup, Restore, Data Integrity, & Replication",Checksum on data pages,https://www.postgresql.org/about/featurematrix/detail/243/,12,yes
+"Backup, Restore, Data Integrity, & Replication",Checksum on data pages,https://www.postgresql.org/about/featurematrix/detail/243/,11,yes
+"Backup, Restore, Data Integrity, & Replication",Checksum on data pages,https://www.postgresql.org/about/featurematrix/detail/243/,10,yes
+"Backup, Restore, Data Integrity, & Replication",Checksum on data pages,https://www.postgresql.org/about/featurematrix/detail/243/,9.6,yes
+"Backup, Restore, Data Integrity, & Replication",Configure max WAL retention for replication slots,https://www.postgresql.org/docs/13/runtime-config-replication.html#GUC-MAX-SLOT-WAL-KEEP-SIZE,13,yes
+"Backup, Restore, Data Integrity, & Replication",Configure max WAL retention for replication slots,https://www.postgresql.org/docs/13/runtime-config-replication.html#GUC-MAX-SLOT-WAL-KEEP-SIZE,12,no
+"Backup, Restore, Data Integrity, & Replication",Configure max WAL retention for replication slots,https://www.postgresql.org/docs/13/runtime-config-replication.html#GUC-MAX-SLOT-WAL-KEEP-SIZE,11,no
+"Backup, Restore, Data Integrity, & Replication",Configure max WAL retention for replication slots,https://www.postgresql.org/docs/13/runtime-config-replication.html#GUC-MAX-SLOT-WAL-KEEP-SIZE,10,no
+"Backup, Restore, Data Integrity, & Replication",Configure max WAL retention for replication slots,https://www.postgresql.org/docs/13/runtime-config-replication.html#GUC-MAX-SLOT-WAL-KEEP-SIZE,9.6,no
+"Backup, Restore, Data Integrity, & Replication",Enable/Disable page checksums in an offline cluster,https://www.postgresql.org/about/featurematrix/detail/328/,13,yes
+"Backup, Restore, Data Integrity, & Replication",Enable/Disable page checksums in an offline cluster,https://www.postgresql.org/about/featurematrix/detail/328/,12,yes
+"Backup, Restore, Data Integrity, & Replication",Enable/Disable page checksums in an offline cluster,https://www.postgresql.org/about/featurematrix/detail/328/,11,no
+"Backup, Restore, Data Integrity, & Replication",Enable/Disable page checksums in an offline cluster,https://www.postgresql.org/about/featurematrix/detail/328/,10,no
+"Backup, Restore, Data Integrity, & Replication",Enable/Disable page checksums in an offline cluster,https://www.postgresql.org/about/featurematrix/detail/328/,9.6,no
+"Backup, Restore, Data Integrity, & Replication",Generic WAL facility,https://www.postgresql.org/about/featurematrix/detail/291/,13,yes
+"Backup, Restore, Data Integrity, & Replication",Generic WAL facility,https://www.postgresql.org/about/featurematrix/detail/291/,12,yes
+"Backup, Restore, Data Integrity, & Replication",Generic WAL facility,https://www.postgresql.org/about/featurematrix/detail/291/,11,yes
+"Backup, Restore, Data Integrity, & Replication",Generic WAL facility,https://www.postgresql.org/about/featurematrix/detail/291/,10,yes
+"Backup, Restore, Data Integrity, & Replication",Generic WAL facility,https://www.postgresql.org/about/featurematrix/detail/291/,9.6,yes
+"Backup, Restore, Data Integrity, & Replication",Hot Standby,https://www.postgresql.org/about/featurematrix/detail/188/,13,yes
+"Backup, Restore, Data Integrity, & Replication",Hot Standby,https://www.postgresql.org/about/featurematrix/detail/188/,12,yes
+"Backup, Restore, Data Integrity, & Replication",Hot Standby,https://www.postgresql.org/about/featurematrix/detail/188/,11,yes
+"Backup, Restore, Data Integrity, & Replication",Hot Standby,https://www.postgresql.org/about/featurematrix/detail/188/,10,yes
+"Backup, Restore, Data Integrity, & Replication",Hot Standby,https://www.postgresql.org/about/featurematrix/detail/188/,9.6,yes
+"Backup, Restore, Data Integrity, & Replication",Logical Replication,https://www.postgresql.org/docs/10/static/logical-replication.html,13,yes
+"Backup, Restore, Data Integrity, & Replication",Logical Replication,https://www.postgresql.org/docs/10/static/logical-replication.html,12,yes
+"Backup, Restore, Data Integrity, & Replication",Logical Replication,https://www.postgresql.org/docs/10/static/logical-replication.html,11,yes
+"Backup, Restore, Data Integrity, & Replication",Logical Replication,https://www.postgresql.org/docs/10/static/logical-replication.html,10,yes
+"Backup, Restore, Data Integrity, & Replication",Logical Replication,https://www.postgresql.org/docs/10/static/logical-replication.html,9.6,no
+"Backup, Restore, Data Integrity, & Replication",min_wal_size / max_wal_size,https://www.postgresql.org/about/featurematrix/detail/280/,13,yes
+"Backup, Restore, Data Integrity, & Replication",min_wal_size / max_wal_size,https://www.postgresql.org/about/featurematrix/detail/280/,12,yes
+"Backup, Restore, Data Integrity, & Replication",min_wal_size / max_wal_size,https://www.postgresql.org/about/featurematrix/detail/280/,11,yes
+"Backup, Restore, Data Integrity, & Replication",min_wal_size / max_wal_size,https://www.postgresql.org/about/featurematrix/detail/280/,10,yes
+"Backup, Restore, Data Integrity, & Replication",min_wal_size / max_wal_size,https://www.postgresql.org/about/featurematrix/detail/280/,9.6,yes
+"Backup, Restore, Data Integrity, & Replication",Multiple synchronous standbys,https://www.postgresql.org/about/featurematrix/detail/285/,13,yes
+"Backup, Restore, Data Integrity, & Replication",Multiple synchronous standbys,https://www.postgresql.org/about/featurematrix/detail/285/,12,yes
+"Backup, Restore, Data Integrity, & Replication",Multiple synchronous standbys,https://www.postgresql.org/about/featurematrix/detail/285/,11,yes
+"Backup, Restore, Data Integrity, & Replication",Multiple synchronous standbys,https://www.postgresql.org/about/featurematrix/detail/285/,10,yes
+"Backup, Restore, Data Integrity, & Replication",Multiple synchronous standbys,https://www.postgresql.org/about/featurematrix/detail/285/,9.6,yes
+"Backup, Restore, Data Integrity, & Replication",Parallel pg_dump,https://www.postgresql.org/about/featurematrix/detail/235/,13,yes
+"Backup, Restore, Data Integrity, & Replication",Parallel pg_dump,https://www.postgresql.org/about/featurematrix/detail/235/,12,yes
+"Backup, Restore, Data Integrity, & Replication",Parallel pg_dump,https://www.postgresql.org/about/featurematrix/detail/235/,11,yes
+"Backup, Restore, Data Integrity, & Replication",Parallel pg_dump,https://www.postgresql.org/about/featurematrix/detail/235/,10,yes
+"Backup, Restore, Data Integrity, & Replication",Parallel pg_dump,https://www.postgresql.org/about/featurematrix/detail/235/,9.6,yes
+"Backup, Restore, Data Integrity, & Replication",pg_basebackup tool,https://www.postgresql.org/about/featurematrix/detail/206/,13,yes
+"Backup, Restore, Data Integrity, & Replication",pg_basebackup tool,https://www.postgresql.org/about/featurematrix/detail/206/,12,yes
+"Backup, Restore, Data Integrity, & Replication",pg_basebackup tool,https://www.postgresql.org/about/featurematrix/detail/206/,11,yes
+"Backup, Restore, Data Integrity, & Replication",pg_basebackup tool,https://www.postgresql.org/about/featurematrix/detail/206/,10,yes
+"Backup, Restore, Data Integrity, & Replication",pg_basebackup tool,https://www.postgresql.org/about/featurematrix/detail/206/,9.6,yes
+"Backup, Restore, Data Integrity, & Replication",pg_receivewal (formerly pg_receivexlog),https://www.postgresql.org/docs/current/static/app-pgreceivewal.html,13,yes
+"Backup, Restore, Data Integrity, & Replication",pg_receivewal (formerly pg_receivexlog),https://www.postgresql.org/docs/current/static/app-pgreceivewal.html,12,yes
+"Backup, Restore, Data Integrity, & Replication",pg_receivewal (formerly pg_receivexlog),https://www.postgresql.org/docs/current/static/app-pgreceivewal.html,11,yes
+"Backup, Restore, Data Integrity, & Replication",pg_receivewal (formerly pg_receivexlog),https://www.postgresql.org/docs/current/static/app-pgreceivewal.html,10,yes
+"Backup, Restore, Data Integrity, & Replication",pg_receivewal (formerly pg_receivexlog),https://www.postgresql.org/docs/current/static/app-pgreceivewal.html,9.6,yes
+"Backup, Restore, Data Integrity, & Replication",Point-in-Time Recovery,https://www.postgresql.org/docs/current/static/continuous-archiving.html,13,yes
+"Backup, Restore, Data Integrity, & Replication",Point-in-Time Recovery,https://www.postgresql.org/docs/current/static/continuous-archiving.html,12,yes
+"Backup, Restore, Data Integrity, & Replication",Point-in-Time Recovery,https://www.postgresql.org/docs/current/static/continuous-archiving.html,11,yes
+"Backup, Restore, Data Integrity, & Replication",Point-in-Time Recovery,https://www.postgresql.org/docs/current/static/continuous-archiving.html,10,yes
+"Backup, Restore, Data Integrity, & Replication",Point-in-Time Recovery,https://www.postgresql.org/docs/current/static/continuous-archiving.html,9.6,yes
+"Backup, Restore, Data Integrity, & Replication",Quorum commit for synchronous replication,https://www.postgresql.org/about/featurematrix/detail/296/,13,yes
+"Backup, Restore, Data Integrity, & Replication",Quorum commit for synchronous replication,https://www.postgresql.org/about/featurematrix/detail/296/,12,yes
+"Backup, Restore, Data Integrity, & Replication",Quorum commit for synchronous replication,https://www.postgresql.org/about/featurematrix/detail/296/,11,yes
+"Backup, Restore, Data Integrity, & Replication",Quorum commit for synchronous replication,https://www.postgresql.org/about/featurematrix/detail/296/,10,yes
+"Backup, Restore, Data Integrity, & Replication",Quorum commit for synchronous replication,https://www.postgresql.org/about/featurematrix/detail/296/,9.6,no
+"Backup, Restore, Data Integrity, & Replication",remote_apply mode,https://www.postgresql.org/about/featurematrix/detail/286/,13,yes
+"Backup, Restore, Data Integrity, & Replication",remote_apply mode,https://www.postgresql.org/about/featurematrix/detail/286/,12,yes
+"Backup, Restore, Data Integrity, & Replication",remote_apply mode,https://www.postgresql.org/about/featurematrix/detail/286/,11,yes
+"Backup, Restore, Data Integrity, & Replication",remote_apply mode,https://www.postgresql.org/about/featurematrix/detail/286/,10,yes
+"Backup, Restore, Data Integrity, & Replication",remote_apply mode,https://www.postgresql.org/about/featurematrix/detail/286/,9.6,yes
+"Backup, Restore, Data Integrity, & Replication",Replication Slots,https://www.postgresql.org/docs/9.4/static/warm-standby.html#STREAMING-REPLICATION-SLOTS,13,yes
+"Backup, Restore, Data Integrity, & Replication",Replication Slots,https://www.postgresql.org/docs/9.4/static/warm-standby.html#STREAMING-REPLICATION-SLOTS,12,yes
+"Backup, Restore, Data Integrity, & Replication",Replication Slots,https://www.postgresql.org/docs/9.4/static/warm-standby.html#STREAMING-REPLICATION-SLOTS,11,yes
+"Backup, Restore, Data Integrity, & Replication",Replication Slots,https://www.postgresql.org/docs/9.4/static/warm-standby.html#STREAMING-REPLICATION-SLOTS,10,yes
+"Backup, Restore, Data Integrity, & Replication",Replication Slots,https://www.postgresql.org/docs/9.4/static/warm-standby.html#STREAMING-REPLICATION-SLOTS,9.6,yes
+"Backup, Restore, Data Integrity, & Replication",Streaming-only cascading replication,https://www.postgresql.org/about/featurematrix/detail/244/,13,yes
+"Backup, Restore, Data Integrity, & Replication",Streaming-only cascading replication,https://www.postgresql.org/about/featurematrix/detail/244/,12,yes
+"Backup, Restore, Data Integrity, & Replication",Streaming-only cascading replication,https://www.postgresql.org/about/featurematrix/detail/244/,11,yes
+"Backup, Restore, Data Integrity, & Replication",Streaming-only cascading replication,https://www.postgresql.org/about/featurematrix/detail/244/,10,yes
+"Backup, Restore, Data Integrity, & Replication",Streaming-only cascading replication,https://www.postgresql.org/about/featurematrix/detail/244/,9.6,yes
+"Backup, Restore, Data Integrity, & Replication",Streaming Replication,https://www.postgresql.org/about/featurematrix/detail/192/,13,yes
+"Backup, Restore, Data Integrity, & Replication",Streaming Replication,https://www.postgresql.org/about/featurematrix/detail/192/,12,yes
+"Backup, Restore, Data Integrity, & Replication",Streaming Replication,https://www.postgresql.org/about/featurematrix/detail/192/,11,yes
+"Backup, Restore, Data Integrity, & Replication",Streaming Replication,https://www.postgresql.org/about/featurematrix/detail/192/,10,yes
+"Backup, Restore, Data Integrity, & Replication",Streaming Replication,https://www.postgresql.org/about/featurematrix/detail/192/,9.6,yes
+"Backup, Restore, Data Integrity, & Replication",Synchronous replication,https://www.postgresql.org/about/featurematrix/detail/205/,13,yes
+"Backup, Restore, Data Integrity, & Replication",Synchronous replication,https://www.postgresql.org/about/featurematrix/detail/205/,12,yes
+"Backup, Restore, Data Integrity, & Replication",Synchronous replication,https://www.postgresql.org/about/featurematrix/detail/205/,11,yes
+"Backup, Restore, Data Integrity, & Replication",Synchronous replication,https://www.postgresql.org/about/featurematrix/detail/205/,10,yes
+"Backup, Restore, Data Integrity, & Replication",Synchronous replication,https://www.postgresql.org/about/featurematrix/detail/205/,9.6,yes
+"Backup, Restore, Data Integrity, & Replication",Time-delayed Standbys,https://www.postgresql.org/about/featurematrix/detail/257/,13,yes
+"Backup, Restore, Data Integrity, & Replication",Time-delayed Standbys,https://www.postgresql.org/about/featurematrix/detail/257/,12,yes
+"Backup, Restore, Data Integrity, & Replication",Time-delayed Standbys,https://www.postgresql.org/about/featurematrix/detail/257/,11,yes
+"Backup, Restore, Data Integrity, & Replication",Time-delayed Standbys,https://www.postgresql.org/about/featurematrix/detail/257/,10,yes
+"Backup, Restore, Data Integrity, & Replication",Time-delayed Standbys,https://www.postgresql.org/about/featurematrix/detail/257/,9.6,yes
+"Backup, Restore, Data Integrity, & Replication",Verify backup integrity (pg_verifybackup),https://www.postgresql.org/docs/13/app-pgverifybackup.html,13,yes
+"Backup, Restore, Data Integrity, & Replication",Verify backup integrity (pg_verifybackup),https://www.postgresql.org/docs/13/app-pgverifybackup.html,12,no
+"Backup, Restore, Data Integrity, & Replication",Verify backup integrity (pg_verifybackup),https://www.postgresql.org/docs/13/app-pgverifybackup.html,11,no
+"Backup, Restore, Data Integrity, & Replication",Verify backup integrity (pg_verifybackup),https://www.postgresql.org/docs/13/app-pgverifybackup.html,10,no
+"Backup, Restore, Data Integrity, & Replication",Verify backup integrity (pg_verifybackup),https://www.postgresql.org/docs/13/app-pgverifybackup.html,9.6,no
+"Backup, Restore, Data Integrity, & Replication",Warm Standby,https://www.postgresql.org/docs/current/static/warm-standby.html,13,yes
+"Backup, Restore, Data Integrity, & Replication",Warm Standby,https://www.postgresql.org/docs/current/static/warm-standby.html,12,yes
+"Backup, Restore, Data Integrity, & Replication",Warm Standby,https://www.postgresql.org/docs/current/static/warm-standby.html,11,yes
+"Backup, Restore, Data Integrity, & Replication",Warm Standby,https://www.postgresql.org/docs/current/static/warm-standby.html,10,yes
+"Backup, Restore, Data Integrity, & Replication",Warm Standby,https://www.postgresql.org/docs/current/static/warm-standby.html,9.6,yes
+Data Import & Export,COPY from/to STDIN/STDOUT,https://www.postgresql.org/about/featurematrix/detail/248/,13,yes
+Data Import & Export,COPY from/to STDIN/STDOUT,https://www.postgresql.org/about/featurematrix/detail/248/,12,yes
+Data Import & Export,COPY from/to STDIN/STDOUT,https://www.postgresql.org/about/featurematrix/detail/248/,11,yes
+Data Import & Export,COPY from/to STDIN/STDOUT,https://www.postgresql.org/about/featurematrix/detail/248/,10,yes
+Data Import & Export,COPY from/to STDIN/STDOUT,https://www.postgresql.org/about/featurematrix/detail/248/,9.6,yes
+Data Import & Export,COPY FROM ... WHERE,https://www.postgresql.org/about/featurematrix/detail/330/,13,yes
+Data Import & Export,COPY FROM ... WHERE,https://www.postgresql.org/about/featurematrix/detail/330/,12,yes
+Data Import & Export,COPY FROM ... WHERE,https://www.postgresql.org/about/featurematrix/detail/330/,11,no
+Data Import & Export,COPY FROM ... WHERE,https://www.postgresql.org/about/featurematrix/detail/330/,10,no
+Data Import & Export,COPY FROM ... WHERE,https://www.postgresql.org/about/featurematrix/detail/330/,9.6,no
+Data Import & Export,COPY with arbitrary SELECT,https://www.postgresql.org/docs/current/static/sql-copy.html,13,yes
+Data Import & Export,COPY with arbitrary SELECT,https://www.postgresql.org/docs/current/static/sql-copy.html,12,yes
+Data Import & Export,COPY with arbitrary SELECT,https://www.postgresql.org/docs/current/static/sql-copy.html,11,yes
+Data Import & Export,COPY with arbitrary SELECT,https://www.postgresql.org/docs/current/static/sql-copy.html,10,yes
+Data Import & Export,COPY with arbitrary SELECT,https://www.postgresql.org/docs/current/static/sql-copy.html,9.6,yes
+Data Import & Export,CSV support for COPY,https://www.postgresql.org/docs/current/static/sql-copy.html,13,yes
+Data Import & Export,CSV support for COPY,https://www.postgresql.org/docs/current/static/sql-copy.html,12,yes
+Data Import & Export,CSV support for COPY,https://www.postgresql.org/docs/current/static/sql-copy.html,11,yes
+Data Import & Export,CSV support for COPY,https://www.postgresql.org/docs/current/static/sql-copy.html,10,yes
+Data Import & Export,CSV support for COPY,https://www.postgresql.org/docs/current/static/sql-copy.html,9.6,yes
+Configuration Management,ALTER SYSTEM,https://www.postgresql.org/docs/9.4/static/sql-altersystem.html,13,yes
+Configuration Management,ALTER SYSTEM,https://www.postgresql.org/docs/9.4/static/sql-altersystem.html,12,yes
+Configuration Management,ALTER SYSTEM,https://www.postgresql.org/docs/9.4/static/sql-altersystem.html,11,yes
+Configuration Management,ALTER SYSTEM,https://www.postgresql.org/docs/9.4/static/sql-altersystem.html,10,yes
+Configuration Management,ALTER SYSTEM,https://www.postgresql.org/docs/9.4/static/sql-altersystem.html,9.6,yes
+Configuration Management,Fractional input for "integer" values,https://www.postgresql.org/about/featurematrix/detail/329/,13,yes
+Configuration Management,Fractional input for "integer" values,https://www.postgresql.org/about/featurematrix/detail/329/,12,yes
+Configuration Management,Fractional input for "integer" values,https://www.postgresql.org/about/featurematrix/detail/329/,11,no
+Configuration Management,Fractional input for "integer" values,https://www.postgresql.org/about/featurematrix/detail/329/,10,no
+Configuration Management,Fractional input for "integer" values,https://www.postgresql.org/about/featurematrix/detail/329/,9.6,no
+Configuration Management,Per user/database server configuration settings,https://www.postgresql.org/about/featurematrix/detail/170/,13,yes
+Configuration Management,Per user/database server configuration settings,https://www.postgresql.org/about/featurematrix/detail/170/,12,yes
+Configuration Management,Per user/database server configuration settings,https://www.postgresql.org/about/featurematrix/detail/170/,11,yes
+Configuration Management,Per user/database server configuration settings,https://www.postgresql.org/about/featurematrix/detail/170/,10,yes
+Configuration Management,Per user/database server configuration settings,https://www.postgresql.org/about/featurematrix/detail/170/,9.6,yes
+Configuration Management,pg_config system view,https://www.postgresql.org/about/featurematrix/detail/290/,13,yes
+Configuration Management,pg_config system view,https://www.postgresql.org/about/featurematrix/detail/290/,12,yes
+Configuration Management,pg_config system view,https://www.postgresql.org/about/featurematrix/detail/290/,11,yes
+Configuration Management,pg_config system view,https://www.postgresql.org/about/featurematrix/detail/290/,10,yes
+Configuration Management,pg_config system view,https://www.postgresql.org/about/featurematrix/detail/290/,9.6,yes
+Security,Channel binding for SCRAM authentication,https://www.postgresql.org/docs/current/sasl-authentication.html#SASL-SCRAM-SHA-256,13,yes
+Security,Channel binding for SCRAM authentication,https://www.postgresql.org/docs/current/sasl-authentication.html#SASL-SCRAM-SHA-256,12,yes
+Security,Channel binding for SCRAM authentication,https://www.postgresql.org/docs/current/sasl-authentication.html#SASL-SCRAM-SHA-256,11,yes
+Security,Channel binding for SCRAM authentication,https://www.postgresql.org/docs/current/sasl-authentication.html#SASL-SCRAM-SHA-256,10,no
+Security,Channel binding for SCRAM authentication,https://www.postgresql.org/docs/current/sasl-authentication.html#SASL-SCRAM-SHA-256,9.6,no
+Security,Client can require SCRAM channel binding,https://www.postgresql.org/docs/13/libpq-connect.html#LIBPQ-CONNECT-CHANNEL-BINDING,13,yes
+Security,Client can require SCRAM channel binding,https://www.postgresql.org/docs/13/libpq-connect.html#LIBPQ-CONNECT-CHANNEL-BINDING,12,no
+Security,Client can require SCRAM channel binding,https://www.postgresql.org/docs/13/libpq-connect.html#LIBPQ-CONNECT-CHANNEL-BINDING,11,no
+Security,Client can require SCRAM channel binding,https://www.postgresql.org/docs/13/libpq-connect.html#LIBPQ-CONNECT-CHANNEL-BINDING,10,no
+Security,Client can require SCRAM channel binding,https://www.postgresql.org/docs/13/libpq-connect.html#LIBPQ-CONNECT-CHANNEL-BINDING,9.6,no
+Security,Column level permissions,https://www.postgresql.org/about/featurematrix/detail/151/,13,yes
+Security,Column level permissions,https://www.postgresql.org/about/featurematrix/detail/151/,12,yes
+Security,Column level permissions,https://www.postgresql.org/about/featurematrix/detail/151/,11,yes
+Security,Column level permissions,https://www.postgresql.org/about/featurematrix/detail/151/,10,yes
+Security,Column level permissions,https://www.postgresql.org/about/featurematrix/detail/151/,9.6,yes
+Security,Default permissions,https://www.postgresql.org/about/featurematrix/detail/166/,13,yes
+Security,Default permissions,https://www.postgresql.org/about/featurematrix/detail/166/,12,yes
+Security,Default permissions,https://www.postgresql.org/about/featurematrix/detail/166/,11,yes
+Security,Default permissions,https://www.postgresql.org/about/featurematrix/detail/166/,10,yes
+Security,Default permissions,https://www.postgresql.org/about/featurematrix/detail/166/,9.6,yes
+Security,GRANT/REVOKE ON ALL TABLES/SEQUENCES/FUNCTIONS,https://www.postgresql.org/about/featurematrix/detail/168/,13,yes
+Security,GRANT/REVOKE ON ALL TABLES/SEQUENCES/FUNCTIONS,https://www.postgresql.org/about/featurematrix/detail/168/,12,yes
+Security,GRANT/REVOKE ON ALL TABLES/SEQUENCES/FUNCTIONS,https://www.postgresql.org/about/featurematrix/detail/168/,11,yes
+Security,GRANT/REVOKE ON ALL TABLES/SEQUENCES/FUNCTIONS,https://www.postgresql.org/about/featurematrix/detail/168/,10,yes
+Security,GRANT/REVOKE ON ALL TABLES/SEQUENCES/FUNCTIONS,https://www.postgresql.org/about/featurematrix/detail/168/,9.6,yes
+Security,GSSAPI client and server-side encryption,https://www.postgresql.org/about/featurematrix/detail/324/,13,yes
+Security,GSSAPI client and server-side encryption,https://www.postgresql.org/about/featurematrix/detail/324/,12,yes
+Security,GSSAPI client and server-side encryption,https://www.postgresql.org/about/featurematrix/detail/324/,11,no
+Security,GSSAPI client and server-side encryption,https://www.postgresql.org/about/featurematrix/detail/324/,10,no
+Security,GSSAPI client and server-side encryption,https://www.postgresql.org/about/featurematrix/detail/324/,9.6,no
+Security,GSSAPI support,https://www.postgresql.org/docs/current/gssapi-auth.html,13,yes
+Security,GSSAPI support,https://www.postgresql.org/docs/current/gssapi-auth.html,12,yes
+Security,GSSAPI support,https://www.postgresql.org/docs/current/gssapi-auth.html,11,yes
+Security,GSSAPI support,https://www.postgresql.org/docs/current/gssapi-auth.html,10,yes
+Security,GSSAPI support,https://www.postgresql.org/docs/current/gssapi-auth.html,9.6,yes
+Security,Large object access controls,https://www.postgresql.org/about/featurematrix/detail/183/,13,yes
+Security,Large object access controls,https://www.postgresql.org/about/featurematrix/detail/183/,12,yes
+Security,Large object access controls,https://www.postgresql.org/about/featurematrix/detail/183/,11,yes
+Security,Large object access controls,https://www.postgresql.org/about/featurematrix/detail/183/,10,yes
+Security,Large object access controls,https://www.postgresql.org/about/featurematrix/detail/183/,9.6,yes
+Security,LDAP server discovery,https://www.postgresql.org/about/featurematrix/detail/325/,13,yes
+Security,LDAP server discovery,https://www.postgresql.org/about/featurematrix/detail/325/,12,yes
+Security,LDAP server discovery,https://www.postgresql.org/about/featurematrix/detail/325/,11,no
+Security,LDAP server discovery,https://www.postgresql.org/about/featurematrix/detail/325/,10,no
+Security,LDAP server discovery,https://www.postgresql.org/about/featurematrix/detail/325/,9.6,no
+Security,Multifactor authentication via valid client SSL/TLS certificate,https://www.postgresql.org/about/featurematrix/detail/326/,13,yes
+Security,Multifactor authentication via valid client SSL/TLS certificate,https://www.postgresql.org/about/featurematrix/detail/326/,12,yes
+Security,Multifactor authentication via valid client SSL/TLS certificate,https://www.postgresql.org/about/featurematrix/detail/326/,11,no
+Security,Multifactor authentication via valid client SSL/TLS certificate,https://www.postgresql.org/about/featurematrix/detail/326/,10,no
+Security,Multifactor authentication via valid client SSL/TLS certificate,https://www.postgresql.org/about/featurematrix/detail/326/,9.6,no
+Security,Native LDAP authentication,https://www.postgresql.org/docs/current/static/auth-methods.html#AUTH-LDAP,13,yes
+Security,Native LDAP authentication,https://www.postgresql.org/docs/current/static/auth-methods.html#AUTH-LDAP,12,yes
+Security,Native LDAP authentication,https://www.postgresql.org/docs/current/static/auth-methods.html#AUTH-LDAP,11,yes
+Security,Native LDAP authentication,https://www.postgresql.org/docs/current/static/auth-methods.html#AUTH-LDAP,10,yes
+Security,Native LDAP authentication,https://www.postgresql.org/docs/current/static/auth-methods.html#AUTH-LDAP,9.6,no
+Security,Per user/database connection limits,https://www.postgresql.org/about/featurematrix/detail/55/,13,yes
+Security,Per user/database connection limits,https://www.postgresql.org/about/featurematrix/detail/55/,12,yes
+Security,Per user/database connection limits,https://www.postgresql.org/about/featurematrix/detail/55/,11,yes
+Security,Per user/database connection limits,https://www.postgresql.org/about/featurematrix/detail/55/,10,yes
+Security,Per user/database connection limits,https://www.postgresql.org/about/featurematrix/detail/55/,9.6,yes
+Security,ROLES,https://www.postgresql.org/about/featurematrix/detail/49/,13,yes
+Security,ROLES,https://www.postgresql.org/about/featurematrix/detail/49/,12,yes
+Security,ROLES,https://www.postgresql.org/about/featurematrix/detail/49/,11,yes
+Security,ROLES,https://www.postgresql.org/about/featurematrix/detail/49/,10,yes
+Security,ROLES,https://www.postgresql.org/about/featurematrix/detail/49/,9.6,yes
+Security,Row-Level Security,https://www.postgresql.org/docs/current/static/sql-createpolicy.html,13,yes
+Security,Row-Level Security,https://www.postgresql.org/docs/current/static/sql-createpolicy.html,12,yes
+Security,Row-Level Security,https://www.postgresql.org/docs/current/static/sql-createpolicy.html,11,yes
+Security,Row-Level Security,https://www.postgresql.org/docs/current/static/sql-createpolicy.html,10,yes
+Security,Row-Level Security,https://www.postgresql.org/docs/current/static/sql-createpolicy.html,9.6,yes
+Security,SCRAM-SHA-256 Authentication,https://www.postgresql.org/about/featurematrix/detail/295/,13,yes
+Security,SCRAM-SHA-256 Authentication,https://www.postgresql.org/about/featurematrix/detail/295/,12,yes
+Security,SCRAM-SHA-256 Authentication,https://www.postgresql.org/about/featurematrix/detail/295/,11,yes
+Security,SCRAM-SHA-256 Authentication,https://www.postgresql.org/about/featurematrix/detail/295/,10,yes
+Security,SCRAM-SHA-256 Authentication,https://www.postgresql.org/about/featurematrix/detail/295/,9.6,no
+Security,Search+bind mode operation for LDAP authentication,https://www.postgresql.org/about/featurematrix/detail/184/,13,yes
+Security,Search+bind mode operation for LDAP authentication,https://www.postgresql.org/about/featurematrix/detail/184/,12,yes
+Security,Search+bind mode operation for LDAP authentication,https://www.postgresql.org/about/featurematrix/detail/184/,11,yes
+Security,Search+bind mode operation for LDAP authentication,https://www.postgresql.org/about/featurematrix/detail/184/,10,yes
+Security,Search+bind mode operation for LDAP authentication,https://www.postgresql.org/about/featurematrix/detail/184/,9.6,yes
+Security,security_barrier option on views,https://www.postgresql.org/about/featurematrix/detail/230/,13,yes
+Security,security_barrier option on views,https://www.postgresql.org/about/featurematrix/detail/230/,12,yes
+Security,security_barrier option on views,https://www.postgresql.org/about/featurematrix/detail/230/,11,yes
+Security,security_barrier option on views,https://www.postgresql.org/about/featurematrix/detail/230/,10,yes
+Security,security_barrier option on views,https://www.postgresql.org/about/featurematrix/detail/230/,9.6,yes
+Security,Security Service Provider Interface (SSPI),https://www.postgresql.org/about/featurematrix/detail/108/,13,yes
+Security,Security Service Provider Interface (SSPI),https://www.postgresql.org/about/featurematrix/detail/108/,12,yes
+Security,Security Service Provider Interface (SSPI),https://www.postgresql.org/about/featurematrix/detail/108/,11,yes
+Security,Security Service Provider Interface (SSPI),https://www.postgresql.org/about/featurematrix/detail/108/,10,yes
+Security,Security Service Provider Interface (SSPI),https://www.postgresql.org/about/featurematrix/detail/108/,9.6,yes
+Security,SSL certificate validation in libpq,https://www.postgresql.org/about/featurematrix/detail/144/,13,yes
+Security,SSL certificate validation in libpq,https://www.postgresql.org/about/featurematrix/detail/144/,12,yes
+Security,SSL certificate validation in libpq,https://www.postgresql.org/about/featurematrix/detail/144/,11,yes
+Security,SSL certificate validation in libpq,https://www.postgresql.org/about/featurematrix/detail/144/,10,yes
+Security,SSL certificate validation in libpq,https://www.postgresql.org/about/featurematrix/detail/144/,9.6,yes
+Security,SSL client certificate authentication,https://www.postgresql.org/about/featurematrix/detail/147/,13,yes
+Security,SSL client certificate authentication,https://www.postgresql.org/about/featurematrix/detail/147/,12,yes
+Security,SSL client certificate authentication,https://www.postgresql.org/about/featurematrix/detail/147/,11,yes
+Security,SSL client certificate authentication,https://www.postgresql.org/about/featurematrix/detail/147/,10,yes
+Security,SSL client certificate authentication,https://www.postgresql.org/about/featurematrix/detail/147/,9.6,yes
+Security,SSPI authentication via GSSAPI,https://www.postgresql.org/about/featurematrix/detail/203/,13,yes
+Security,SSPI authentication via GSSAPI,https://www.postgresql.org/about/featurematrix/detail/203/,12,yes
+Security,SSPI authentication via GSSAPI,https://www.postgresql.org/about/featurematrix/detail/203/,11,yes
+Security,SSPI authentication via GSSAPI,https://www.postgresql.org/about/featurematrix/detail/203/,10,yes
+Security,SSPI authentication via GSSAPI,https://www.postgresql.org/about/featurematrix/detail/203/,9.6,yes
+Foreign Data Wrappers,Certificate authentication with postgres_fdw,https://www.postgresql.org/about/featurematrix/detail/339/,13,yes
+Foreign Data Wrappers,Certificate authentication with postgres_fdw,https://www.postgresql.org/about/featurematrix/detail/339/,12,no
+Foreign Data Wrappers,Certificate authentication with postgres_fdw,https://www.postgresql.org/about/featurematrix/detail/339/,11,no
+Foreign Data Wrappers,Certificate authentication with postgres_fdw,https://www.postgresql.org/about/featurematrix/detail/339/,10,no
+Foreign Data Wrappers,Certificate authentication with postgres_fdw,https://www.postgresql.org/about/featurematrix/detail/339/,9.6,no
+Foreign Data Wrappers,Foreign data wrappers,https://www.postgresql.org/about/featurematrix/detail/238/,13,yes
+Foreign Data Wrappers,Foreign data wrappers,https://www.postgresql.org/about/featurematrix/detail/238/,12,yes
+Foreign Data Wrappers,Foreign data wrappers,https://www.postgresql.org/about/featurematrix/detail/238/,11,yes
+Foreign Data Wrappers,Foreign data wrappers,https://www.postgresql.org/about/featurematrix/detail/238/,10,yes
+Foreign Data Wrappers,Foreign data wrappers,https://www.postgresql.org/about/featurematrix/detail/238/,9.6,yes
+Foreign Data Wrappers,Foreign Tables,https://www.postgresql.org/about/featurematrix/detail/212/,13,yes
+Foreign Data Wrappers,Foreign Tables,https://www.postgresql.org/about/featurematrix/detail/212/,12,yes
+Foreign Data Wrappers,Foreign Tables,https://www.postgresql.org/about/featurematrix/detail/212/,11,yes
+Foreign Data Wrappers,Foreign Tables,https://www.postgresql.org/about/featurematrix/detail/212/,10,yes
+Foreign Data Wrappers,Foreign Tables,https://www.postgresql.org/about/featurematrix/detail/212/,9.6,yes
+Foreign Data Wrappers,IMPORT FOREIGN SCHEMA,https://www.postgresql.org/docs/9.5/static/sql-importforeignschema.html,13,yes
+Foreign Data Wrappers,IMPORT FOREIGN SCHEMA,https://www.postgresql.org/docs/9.5/static/sql-importforeignschema.html,12,yes
+Foreign Data Wrappers,IMPORT FOREIGN SCHEMA,https://www.postgresql.org/docs/9.5/static/sql-importforeignschema.html,11,yes
+Foreign Data Wrappers,IMPORT FOREIGN SCHEMA,https://www.postgresql.org/docs/9.5/static/sql-importforeignschema.html,10,yes
+Foreign Data Wrappers,IMPORT FOREIGN SCHEMA,https://www.postgresql.org/docs/9.5/static/sql-importforeignschema.html,9.6,yes
+Foreign Data Wrappers,postgres_fdw pushdown,https://www.postgresql.org/about/featurematrix/detail/284/,13,yes
+Foreign Data Wrappers,postgres_fdw pushdown,https://www.postgresql.org/about/featurematrix/detail/284/,12,yes
+Foreign Data Wrappers,postgres_fdw pushdown,https://www.postgresql.org/about/featurematrix/detail/284/,11,yes
+Foreign Data Wrappers,postgres_fdw pushdown,https://www.postgresql.org/about/featurematrix/detail/284/,10,yes
+Foreign Data Wrappers,postgres_fdw pushdown,https://www.postgresql.org/about/featurematrix/detail/284/,9.6,yes
+Foreign Data Wrappers,PostgreSQL Foreign Data Wrapper,https://www.postgresql.org/docs/current/static/postgres-fdw.html,13,yes
+Foreign Data Wrappers,PostgreSQL Foreign Data Wrapper,https://www.postgresql.org/docs/current/static/postgres-fdw.html,12,yes
+Foreign Data Wrappers,PostgreSQL Foreign Data Wrapper,https://www.postgresql.org/docs/current/static/postgres-fdw.html,11,yes
+Foreign Data Wrappers,PostgreSQL Foreign Data Wrapper,https://www.postgresql.org/docs/current/static/postgres-fdw.html,10,yes
+Foreign Data Wrappers,PostgreSQL Foreign Data Wrapper,https://www.postgresql.org/docs/current/static/postgres-fdw.html,9.6,yes
+Foreign Data Wrappers,Writable Foreign Data Wrappers,https://www.postgresql.org/about/featurematrix/detail/237/,13,yes
+Foreign Data Wrappers,Writable Foreign Data Wrappers,https://www.postgresql.org/about/featurematrix/detail/237/,12,yes
+Foreign Data Wrappers,Writable Foreign Data Wrappers,https://www.postgresql.org/about/featurematrix/detail/237/,11,yes
+Foreign Data Wrappers,Writable Foreign Data Wrappers,https://www.postgresql.org/about/featurematrix/detail/237/,10,yes
+Foreign Data Wrappers,Writable Foreign Data Wrappers,https://www.postgresql.org/about/featurematrix/detail/237/,9.6,yes
+"Custom Functions, Stored Procedures, & Triggers",ALTER TABLE ENABLE/DISABLE TRIGGER,https://www.postgresql.org/about/featurematrix/detail/58/,13,yes
+"Custom Functions, Stored Procedures, & Triggers",ALTER TABLE ENABLE/DISABLE TRIGGER,https://www.postgresql.org/about/featurematrix/detail/58/,12,yes
+"Custom Functions, Stored Procedures, & Triggers",ALTER TABLE ENABLE/DISABLE TRIGGER,https://www.postgresql.org/about/featurematrix/detail/58/,11,yes
+"Custom Functions, Stored Procedures, & Triggers",ALTER TABLE ENABLE/DISABLE TRIGGER,https://www.postgresql.org/about/featurematrix/detail/58/,10,yes
+"Custom Functions, Stored Procedures, & Triggers",ALTER TABLE ENABLE/DISABLE TRIGGER,https://www.postgresql.org/about/featurematrix/detail/58/,9.6,yes
+"Custom Functions, Stored Procedures, & Triggers",ALTER TABLE / ENABLE REPLICA TRIGGER/RULE,https://www.postgresql.org/docs/current/static/sql-altertable.html,13,yes
+"Custom Functions, Stored Procedures, & Triggers",ALTER TABLE / ENABLE REPLICA TRIGGER/RULE,https://www.postgresql.org/docs/current/static/sql-altertable.html,12,yes
+"Custom Functions, Stored Procedures, & Triggers",ALTER TABLE / ENABLE REPLICA TRIGGER/RULE,https://www.postgresql.org/docs/current/static/sql-altertable.html,11,yes
+"Custom Functions, Stored Procedures, & Triggers",ALTER TABLE / ENABLE REPLICA TRIGGER/RULE,https://www.postgresql.org/docs/current/static/sql-altertable.html,10,yes
+"Custom Functions, Stored Procedures, & Triggers",ALTER TABLE / ENABLE REPLICA TRIGGER/RULE,https://www.postgresql.org/docs/current/static/sql-altertable.html,9.6,yes
+"Custom Functions, Stored Procedures, & Triggers",CALL syntax for executing procedures,https://www.postgresql.org/docs/11/static/sql-call.html,13,yes
+"Custom Functions, Stored Procedures, & Triggers",CALL syntax for executing procedures,https://www.postgresql.org/docs/11/static/sql-call.html,12,yes
+"Custom Functions, Stored Procedures, & Triggers",CALL syntax for executing procedures,https://www.postgresql.org/docs/11/static/sql-call.html,11,yes
+"Custom Functions, Stored Procedures, & Triggers",CALL syntax for executing procedures,https://www.postgresql.org/docs/11/static/sql-call.html,10,no
+"Custom Functions, Stored Procedures, & Triggers",CALL syntax for executing procedures,https://www.postgresql.org/docs/11/static/sql-call.html,9.6,no
+"Custom Functions, Stored Procedures, & Triggers",Column level triggers,https://www.postgresql.org/about/featurematrix/detail/162/,13,yes
+"Custom Functions, Stored Procedures, & Triggers",Column level triggers,https://www.postgresql.org/about/featurematrix/detail/162/,12,yes
+"Custom Functions, Stored Procedures, & Triggers",Column level triggers,https://www.postgresql.org/about/featurematrix/detail/162/,11,yes
+"Custom Functions, Stored Procedures, & Triggers",Column level triggers,https://www.postgresql.org/about/featurematrix/detail/162/,10,yes
+"Custom Functions, Stored Procedures, & Triggers",Column level triggers,https://www.postgresql.org/about/featurematrix/detail/162/,9.6,yes
+"Custom Functions, Stored Procedures, & Triggers",CREATE PROCEDURE syntax for SQL stored procedures,https://www.postgresql.org/docs/11/static/sql-createprocedure.html,13,yes
+"Custom Functions, Stored Procedures, & Triggers",CREATE PROCEDURE syntax for SQL stored procedures,https://www.postgresql.org/docs/11/static/sql-createprocedure.html,12,yes
+"Custom Functions, Stored Procedures, & Triggers",CREATE PROCEDURE syntax for SQL stored procedures,https://www.postgresql.org/docs/11/static/sql-createprocedure.html,11,yes
+"Custom Functions, Stored Procedures, & Triggers",CREATE PROCEDURE syntax for SQL stored procedures,https://www.postgresql.org/docs/11/static/sql-createprocedure.html,10,no
+"Custom Functions, Stored Procedures, & Triggers",CREATE PROCEDURE syntax for SQL stored procedures,https://www.postgresql.org/docs/11/static/sql-createprocedure.html,9.6,no
+"Custom Functions, Stored Procedures, & Triggers",Event triggers,https://www.postgresql.org/about/featurematrix/detail/233/,13,yes
+"Custom Functions, Stored Procedures, & Triggers",Event triggers,https://www.postgresql.org/about/featurematrix/detail/233/,12,yes
+"Custom Functions, Stored Procedures, & Triggers",Event triggers,https://www.postgresql.org/about/featurematrix/detail/233/,11,yes
+"Custom Functions, Stored Procedures, & Triggers",Event triggers,https://www.postgresql.org/about/featurematrix/detail/233/,10,yes
+"Custom Functions, Stored Procedures, & Triggers",Event triggers,https://www.postgresql.org/about/featurematrix/detail/233/,9.6,yes
+"Custom Functions, Stored Procedures, & Triggers",FILTER clause for aggregate functions,https://www.postgresql.org/about/featurematrix/detail/263/,13,yes
+"Custom Functions, Stored Procedures, & Triggers",FILTER clause for aggregate functions,https://www.postgresql.org/about/featurematrix/detail/263/,12,yes
+"Custom Functions, Stored Procedures, & Triggers",FILTER clause for aggregate functions,https://www.postgresql.org/about/featurematrix/detail/263/,11,yes
+"Custom Functions, Stored Procedures, & Triggers",FILTER clause for aggregate functions,https://www.postgresql.org/about/featurematrix/detail/263/,10,yes
+"Custom Functions, Stored Procedures, & Triggers",FILTER clause for aggregate functions,https://www.postgresql.org/about/featurematrix/detail/263/,9.6,yes
+"Custom Functions, Stored Procedures, & Triggers",ORDER BY support within aggregates,https://www.postgresql.org/about/featurematrix/detail/180/,13,yes
+"Custom Functions, Stored Procedures, & Triggers",ORDER BY support within aggregates,https://www.postgresql.org/about/featurematrix/detail/180/,12,yes
+"Custom Functions, Stored Procedures, & Triggers",ORDER BY support within aggregates,https://www.postgresql.org/about/featurematrix/detail/180/,11,yes
+"Custom Functions, Stored Procedures, & Triggers",ORDER BY support within aggregates,https://www.postgresql.org/about/featurematrix/detail/180/,10,yes
+"Custom Functions, Stored Procedures, & Triggers",ORDER BY support within aggregates,https://www.postgresql.org/about/featurematrix/detail/180/,9.6,yes
+"Custom Functions, Stored Procedures, & Triggers",Per function GUC settings,https://www.postgresql.org/about/featurematrix/detail/20/,13,yes
+"Custom Functions, Stored Procedures, & Triggers",Per function GUC settings,https://www.postgresql.org/about/featurematrix/detail/20/,12,yes
+"Custom Functions, Stored Procedures, & Triggers",Per function GUC settings,https://www.postgresql.org/about/featurematrix/detail/20/,11,yes
+"Custom Functions, Stored Procedures, & Triggers",Per function GUC settings,https://www.postgresql.org/about/featurematrix/detail/20/,10,yes
+"Custom Functions, Stored Procedures, & Triggers",Per function GUC settings,https://www.postgresql.org/about/featurematrix/detail/20/,9.6,yes
+"Custom Functions, Stored Procedures, & Triggers",Per function statistics,https://www.postgresql.org/about/featurematrix/detail/141/,13,yes
+"Custom Functions, Stored Procedures, & Triggers",Per function statistics,https://www.postgresql.org/about/featurematrix/detail/141/,12,yes
+"Custom Functions, Stored Procedures, & Triggers",Per function statistics,https://www.postgresql.org/about/featurematrix/detail/141/,11,yes
+"Custom Functions, Stored Procedures, & Triggers",Per function statistics,https://www.postgresql.org/about/featurematrix/detail/141/,10,yes
+"Custom Functions, Stored Procedures, & Triggers",Per function statistics,https://www.postgresql.org/about/featurematrix/detail/141/,9.6,yes
+"Custom Functions, Stored Procedures, & Triggers",RETURN QUERY EXECUTE,https://www.postgresql.org/about/featurematrix/detail/142/,13,yes
+"Custom Functions, Stored Procedures, & Triggers",RETURN QUERY EXECUTE,https://www.postgresql.org/about/featurematrix/detail/142/,12,yes
+"Custom Functions, Stored Procedures, & Triggers",RETURN QUERY EXECUTE,https://www.postgresql.org/about/featurematrix/detail/142/,11,yes
+"Custom Functions, Stored Procedures, & Triggers",RETURN QUERY EXECUTE,https://www.postgresql.org/about/featurematrix/detail/142/,10,yes
+"Custom Functions, Stored Procedures, & Triggers",RETURN QUERY EXECUTE,https://www.postgresql.org/about/featurematrix/detail/142/,9.6,yes
+"Custom Functions, Stored Procedures, & Triggers",RETURNS TABLE,https://www.postgresql.org/about/featurematrix/detail/136/,13,yes
+"Custom Functions, Stored Procedures, & Triggers",RETURNS TABLE,https://www.postgresql.org/about/featurematrix/detail/136/,12,yes
+"Custom Functions, Stored Procedures, & Triggers",RETURNS TABLE,https://www.postgresql.org/about/featurematrix/detail/136/,11,yes
+"Custom Functions, Stored Procedures, & Triggers",RETURNS TABLE,https://www.postgresql.org/about/featurematrix/detail/136/,10,yes
+"Custom Functions, Stored Procedures, & Triggers",RETURNS TABLE,https://www.postgresql.org/about/featurematrix/detail/136/,9.6,yes
+"Custom Functions, Stored Procedures, & Triggers",Statement level triggers,https://www.postgresql.org/about/featurematrix/detail/73/,13,yes
+"Custom Functions, Stored Procedures, & Triggers",Statement level triggers,https://www.postgresql.org/about/featurematrix/detail/73/,12,yes
+"Custom Functions, Stored Procedures, & Triggers",Statement level triggers,https://www.postgresql.org/about/featurematrix/detail/73/,11,yes
+"Custom Functions, Stored Procedures, & Triggers",Statement level triggers,https://www.postgresql.org/about/featurematrix/detail/73/,10,yes
+"Custom Functions, Stored Procedures, & Triggers",Statement level triggers,https://www.postgresql.org/about/featurematrix/detail/73/,9.6,yes
+"Custom Functions, Stored Procedures, & Triggers",Statement level TRUNCATE triggers,https://www.postgresql.org/about/featurematrix/detail/128/,13,yes
+"Custom Functions, Stored Procedures, & Triggers",Statement level TRUNCATE triggers,https://www.postgresql.org/about/featurematrix/detail/128/,12,yes
+"Custom Functions, Stored Procedures, & Triggers",Statement level TRUNCATE triggers,https://www.postgresql.org/about/featurematrix/detail/128/,11,yes
+"Custom Functions, Stored Procedures, & Triggers",Statement level TRUNCATE triggers,https://www.postgresql.org/about/featurematrix/detail/128/,10,yes
+"Custom Functions, Stored Procedures, & Triggers",Statement level TRUNCATE triggers,https://www.postgresql.org/about/featurematrix/detail/128/,9.6,yes
+"Custom Functions, Stored Procedures, & Triggers",Triggers on views,https://www.postgresql.org/about/featurematrix/detail/215/,13,yes
+"Custom Functions, Stored Procedures, & Triggers",Triggers on views,https://www.postgresql.org/about/featurematrix/detail/215/,12,yes
+"Custom Functions, Stored Procedures, & Triggers",Triggers on views,https://www.postgresql.org/about/featurematrix/detail/215/,11,yes
+"Custom Functions, Stored Procedures, & Triggers",Triggers on views,https://www.postgresql.org/about/featurematrix/detail/215/,10,yes
+"Custom Functions, Stored Procedures, & Triggers",Triggers on views,https://www.postgresql.org/about/featurematrix/detail/215/,9.6,yes
+"Custom Functions, Stored Procedures, & Triggers",Variadic functions,https://www.postgresql.org/about/featurematrix/detail/137/,13,yes
+"Custom Functions, Stored Procedures, & Triggers",Variadic functions,https://www.postgresql.org/about/featurematrix/detail/137/,12,yes
+"Custom Functions, Stored Procedures, & Triggers",Variadic functions,https://www.postgresql.org/about/featurematrix/detail/137/,11,yes
+"Custom Functions, Stored Procedures, & Triggers",Variadic functions,https://www.postgresql.org/about/featurematrix/detail/137/,10,yes
+"Custom Functions, Stored Procedures, & Triggers",Variadic functions,https://www.postgresql.org/about/featurematrix/detail/137/,9.6,yes
+"Custom Functions, Stored Procedures, & Triggers",WHEN clause for CREATE TRIGGER,https://www.postgresql.org/about/featurematrix/detail/178/,13,yes
+"Custom Functions, Stored Procedures, & Triggers",WHEN clause for CREATE TRIGGER,https://www.postgresql.org/about/featurematrix/detail/178/,12,yes
+"Custom Functions, Stored Procedures, & Triggers",WHEN clause for CREATE TRIGGER,https://www.postgresql.org/about/featurematrix/detail/178/,11,yes
+"Custom Functions, Stored Procedures, & Triggers",WHEN clause for CREATE TRIGGER,https://www.postgresql.org/about/featurematrix/detail/178/,10,yes
+"Custom Functions, Stored Procedures, & Triggers",WHEN clause for CREATE TRIGGER,https://www.postgresql.org/about/featurematrix/detail/178/,9.6,yes
+Procedural Languages,CASE in pl/pgsql,https://www.postgresql.org/about/featurematrix/detail/130/,13,yes
+Procedural Languages,CASE in pl/pgsql,https://www.postgresql.org/about/featurematrix/detail/130/,12,yes
+Procedural Languages,CASE in pl/pgsql,https://www.postgresql.org/about/featurematrix/detail/130/,11,yes
+Procedural Languages,CASE in pl/pgsql,https://www.postgresql.org/about/featurematrix/detail/130/,10,yes
+Procedural Languages,CASE in pl/pgsql,https://www.postgresql.org/about/featurematrix/detail/130/,9.6,yes
+Procedural Languages,CONTINUE statement for PL/pgSQL,https://www.postgresql.org/docs/current/plpgsql-control-structures.html#id-1.8.8.8.7.6,13,yes
+Procedural Languages,CONTINUE statement for PL/pgSQL,https://www.postgresql.org/docs/current/plpgsql-control-structures.html#id-1.8.8.8.7.6,12,yes
+Procedural Languages,CONTINUE statement for PL/pgSQL,https://www.postgresql.org/docs/current/plpgsql-control-structures.html#id-1.8.8.8.7.6,11,yes
+Procedural Languages,CONTINUE statement for PL/pgSQL,https://www.postgresql.org/docs/current/plpgsql-control-structures.html#id-1.8.8.8.7.6,10,yes
+Procedural Languages,CONTINUE statement for PL/pgSQL,https://www.postgresql.org/docs/current/plpgsql-control-structures.html#id-1.8.8.8.7.6,9.6,yes
+Procedural Languages,CREATE TRANSFORM,https://www.postgresql.org/docs/9.5/static/sql-createtransform.html,13,yes
+Procedural Languages,CREATE TRANSFORM,https://www.postgresql.org/docs/9.5/static/sql-createtransform.html,12,yes
+Procedural Languages,CREATE TRANSFORM,https://www.postgresql.org/docs/9.5/static/sql-createtransform.html,11,yes
+Procedural Languages,CREATE TRANSFORM,https://www.postgresql.org/docs/9.5/static/sql-createtransform.html,10,yes
+Procedural Languages,CREATE TRANSFORM,https://www.postgresql.org/docs/9.5/static/sql-createtransform.html,9.6,yes
+Procedural Languages,DO statement for pl/perl,https://www.postgresql.org/about/featurematrix/detail/186/,13,yes
+Procedural Languages,DO statement for pl/perl,https://www.postgresql.org/about/featurematrix/detail/186/,12,yes
+Procedural Languages,DO statement for pl/perl,https://www.postgresql.org/about/featurematrix/detail/186/,11,yes
+Procedural Languages,DO statement for pl/perl,https://www.postgresql.org/about/featurematrix/detail/186/,10,yes
+Procedural Languages,DO statement for pl/perl,https://www.postgresql.org/about/featurematrix/detail/186/,9.6,yes
+Procedural Languages,DO statement for pl/pgsql,https://www.postgresql.org/about/featurematrix/detail/167/,13,yes
+Procedural Languages,DO statement for pl/pgsql,https://www.postgresql.org/about/featurematrix/detail/167/,12,yes
+Procedural Languages,DO statement for pl/pgsql,https://www.postgresql.org/about/featurematrix/detail/167/,11,yes
+Procedural Languages,DO statement for pl/pgsql,https://www.postgresql.org/about/featurematrix/detail/167/,10,yes
+Procedural Languages,DO statement for pl/pgsql,https://www.postgresql.org/about/featurematrix/detail/167/,9.6,yes
+Procedural Languages,EXCEPTION support in PL/pgSQL,https://www.postgresql.org/about/featurematrix/detail/84/,13,yes
+Procedural Languages,EXCEPTION support in PL/pgSQL,https://www.postgresql.org/about/featurematrix/detail/84/,12,yes
+Procedural Languages,EXCEPTION support in PL/pgSQL,https://www.postgresql.org/about/featurematrix/detail/84/,11,yes
+Procedural Languages,EXCEPTION support in PL/pgSQL,https://www.postgresql.org/about/featurematrix/detail/84/,10,yes
+Procedural Languages,EXCEPTION support in PL/pgSQL,https://www.postgresql.org/about/featurematrix/detail/84/,9.6,yes
+Procedural Languages,EXECUTE USING in PL/pgSQL,,13,yes
+Procedural Languages,EXECUTE USING in PL/pgSQL,,12,yes
+Procedural Languages,EXECUTE USING in PL/pgSQL,,11,yes
+Procedural Languages,EXECUTE USING in PL/pgSQL,,10,yes
+Procedural Languages,EXECUTE USING in PL/pgSQL,,9.6,yes
+Procedural Languages,FOREACH IN ARRAY in pl/pgsql,https://www.postgresql.org/about/featurematrix/detail/216/,13,yes
+Procedural Languages,FOREACH IN ARRAY in pl/pgsql,https://www.postgresql.org/about/featurematrix/detail/216/,12,yes
+Procedural Languages,FOREACH IN ARRAY in pl/pgsql,https://www.postgresql.org/about/featurematrix/detail/216/,11,yes
+Procedural Languages,FOREACH IN ARRAY in pl/pgsql,https://www.postgresql.org/about/featurematrix/detail/216/,10,yes
+Procedural Languages,FOREACH IN ARRAY in pl/pgsql,https://www.postgresql.org/about/featurematrix/detail/216/,9.6,yes
+Procedural Languages,IN/OUT/INOUT parameters for pl/pgsql and PL/SQL,,13,yes
+Procedural Languages,IN/OUT/INOUT parameters for pl/pgsql and PL/SQL,,12,yes
+Procedural Languages,IN/OUT/INOUT parameters for pl/pgsql and PL/SQL,,11,yes
+Procedural Languages,IN/OUT/INOUT parameters for pl/pgsql and PL/SQL,,10,yes
+Procedural Languages,IN/OUT/INOUT parameters for pl/pgsql and PL/SQL,,9.6,yes
+Procedural Languages,Named parameters,https://www.postgresql.org/about/featurematrix/detail/83/,13,yes
+Procedural Languages,Named parameters,https://www.postgresql.org/about/featurematrix/detail/83/,12,yes
+Procedural Languages,Named parameters,https://www.postgresql.org/about/featurematrix/detail/83/,11,yes
+Procedural Languages,Named parameters,https://www.postgresql.org/about/featurematrix/detail/83/,10,yes
+Procedural Languages,Named parameters,https://www.postgresql.org/about/featurematrix/detail/83/,9.6,yes
+Procedural Languages,Non-superuser language creation,https://www.postgresql.org/about/featurematrix/detail/113/,13,yes
+Procedural Languages,Non-superuser language creation,https://www.postgresql.org/about/featurematrix/detail/113/,12,yes
+Procedural Languages,Non-superuser language creation,https://www.postgresql.org/about/featurematrix/detail/113/,11,yes
+Procedural Languages,Non-superuser language creation,https://www.postgresql.org/about/featurematrix/detail/113/,10,yes
+Procedural Languages,Non-superuser language creation,https://www.postgresql.org/about/featurematrix/detail/113/,9.6,yes
+Procedural Languages,pl/pgsql installed by default,https://www.postgresql.org/about/featurematrix/detail/185/,13,yes
+Procedural Languages,pl/pgsql installed by default,https://www.postgresql.org/about/featurematrix/detail/185/,12,yes
+Procedural Languages,pl/pgsql installed by default,https://www.postgresql.org/about/featurematrix/detail/185/,11,yes
+Procedural Languages,pl/pgsql installed by default,https://www.postgresql.org/about/featurematrix/detail/185/,10,yes
+Procedural Languages,pl/pgsql installed by default,https://www.postgresql.org/about/featurematrix/detail/185/,9.6,yes
+Procedural Languages,Polymorphic functions,,13,yes
+Procedural Languages,Polymorphic functions,,12,yes
+Procedural Languages,Polymorphic functions,,11,yes
+Procedural Languages,Polymorphic functions,,10,yes
+Procedural Languages,Polymorphic functions,,9.6,yes
+Procedural Languages,Python 3 support for pl/python,https://www.postgresql.org/about/featurematrix/detail/187/,13,yes
+Procedural Languages,Python 3 support for pl/python,https://www.postgresql.org/about/featurematrix/detail/187/,12,yes
+Procedural Languages,Python 3 support for pl/python,https://www.postgresql.org/about/featurematrix/detail/187/,11,yes
+Procedural Languages,Python 3 support for pl/python,https://www.postgresql.org/about/featurematrix/detail/187/,10,yes
+Procedural Languages,Python 3 support for pl/python,https://www.postgresql.org/about/featurematrix/detail/187/,9.6,yes
+Procedural Languages,Qualified function parameters,https://www.postgresql.org/about/featurematrix/detail/187/,13,yes
+Procedural Languages,Qualified function parameters,https://www.postgresql.org/about/featurematrix/detail/187/,12,yes
+Procedural Languages,Qualified function parameters,https://www.postgresql.org/about/featurematrix/detail/187/,11,yes
+Procedural Languages,Qualified function parameters,https://www.postgresql.org/about/featurematrix/detail/187/,10,yes
+Procedural Languages,Qualified function parameters,https://www.postgresql.org/about/featurematrix/detail/187/,9.6,yes
+Procedural Languages,RETURN QUERY in pl/pgsql,https://www.postgresql.org/about/featurematrix/detail/78/,13,yes
+Procedural Languages,RETURN QUERY in pl/pgsql,https://www.postgresql.org/about/featurematrix/detail/78/,12,yes
+Procedural Languages,RETURN QUERY in pl/pgsql,https://www.postgresql.org/about/featurematrix/detail/78/,11,yes
+Procedural Languages,RETURN QUERY in pl/pgsql,https://www.postgresql.org/about/featurematrix/detail/78/,10,yes
+Procedural Languages,RETURN QUERY in pl/pgsql,https://www.postgresql.org/about/featurematrix/detail/78/,9.6,yes
+Procedural Languages,ROWS and COST specification for functions,https://www.postgresql.org/about/featurematrix/detail/14/,13,yes
+Procedural Languages,ROWS and COST specification for functions,https://www.postgresql.org/about/featurematrix/detail/14/,12,yes
+Procedural Languages,ROWS and COST specification for functions,https://www.postgresql.org/about/featurematrix/detail/14/,11,yes
+Procedural Languages,ROWS and COST specification for functions,https://www.postgresql.org/about/featurematrix/detail/14/,10,yes
+Procedural Languages,ROWS and COST specification for functions,https://www.postgresql.org/about/featurematrix/detail/14/,9.6,yes
+Procedural Languages,Scrollable and updatable cursor support for pl/pgsql,https://www.postgresql.org/about/featurematrix/detail/13/,13,yes
+Procedural Languages,Scrollable and updatable cursor support for pl/pgsql,https://www.postgresql.org/about/featurematrix/detail/13/,12,yes
+Procedural Languages,Scrollable and updatable cursor support for pl/pgsql,https://www.postgresql.org/about/featurematrix/detail/13/,11,yes
+Procedural Languages,Scrollable and updatable cursor support for pl/pgsql,https://www.postgresql.org/about/featurematrix/detail/13/,10,yes
+Procedural Languages,Scrollable and updatable cursor support for pl/pgsql,https://www.postgresql.org/about/featurematrix/detail/13/,9.6,yes
+Procedural Languages,SQLERRM/SQLSTATE for pl/pgsql,https://www.postgresql.org/about/featurematrix/detail/15/,13,yes
+Procedural Languages,SQLERRM/SQLSTATE for pl/pgsql,https://www.postgresql.org/about/featurematrix/detail/15/,12,yes
+Procedural Languages,SQLERRM/SQLSTATE for pl/pgsql,https://www.postgresql.org/about/featurematrix/detail/15/,11,yes
+Procedural Languages,SQLERRM/SQLSTATE for pl/pgsql,https://www.postgresql.org/about/featurematrix/detail/15/,10,yes
+Procedural Languages,SQLERRM/SQLSTATE for pl/pgsql,https://www.postgresql.org/about/featurematrix/detail/15/,9.6,yes
+Procedural Languages,Unicode object support in PL/python,,13,yes
+Procedural Languages,Unicode object support in PL/python,,12,yes
+Procedural Languages,Unicode object support in PL/python,,11,yes
+Procedural Languages,Unicode object support in PL/python,,10,yes
+Procedural Languages,Unicode object support in PL/python,,9.6,yes
+Procedural Languages,User defined exceptions,https://www.postgresql.org/about/featurematrix/detail/138/,13,yes
+Procedural Languages,User defined exceptions,https://www.postgresql.org/about/featurematrix/detail/138/,12,yes
+Procedural Languages,User defined exceptions,https://www.postgresql.org/about/featurematrix/detail/138/,11,yes
+Procedural Languages,User defined exceptions,https://www.postgresql.org/about/featurematrix/detail/138/,10,yes
+Procedural Languages,User defined exceptions,https://www.postgresql.org/about/featurematrix/detail/138/,9.6,yes
+Procedural Languages,Validator function for pl/perl,https://www.postgresql.org/about/featurematrix/detail/82/,13,yes
+Procedural Languages,Validator function for pl/perl,https://www.postgresql.org/about/featurematrix/detail/82/,12,yes
+Procedural Languages,Validator function for pl/perl,https://www.postgresql.org/about/featurematrix/detail/82/,11,yes
+Procedural Languages,Validator function for pl/perl,https://www.postgresql.org/about/featurematrix/detail/82/,10,yes
+Procedural Languages,Validator function for pl/perl,https://www.postgresql.org/about/featurematrix/detail/82/,9.6,yes
+Extensions,CREATE EXTENSION .. CASCADE,https://www.postgresql.org/about/featurematrix/detail/292/,13,yes
+Extensions,CREATE EXTENSION .. CASCADE,https://www.postgresql.org/about/featurematrix/detail/292/,12,yes
+Extensions,CREATE EXTENSION .. CASCADE,https://www.postgresql.org/about/featurematrix/detail/292/,11,yes
+Extensions,CREATE EXTENSION .. CASCADE,https://www.postgresql.org/about/featurematrix/detail/292/,10,yes
+Extensions,CREATE EXTENSION .. CASCADE,https://www.postgresql.org/about/featurematrix/detail/292/,9.6,yes
+Extensions,Extension Installation,https://www.postgresql.org/docs/current/static/external-extensions.html,13,yes
+Extensions,Extension Installation,https://www.postgresql.org/docs/current/static/external-extensions.html,12,yes
+Extensions,Extension Installation,https://www.postgresql.org/docs/current/static/external-extensions.html,11,yes
+Extensions,Extension Installation,https://www.postgresql.org/docs/current/static/external-extensions.html,10,yes
+Extensions,Extension Installation,https://www.postgresql.org/docs/current/static/external-extensions.html,9.6,yes
+Extensions,Trusted Extensions,https://www.postgresql.org/about/featurematrix/detail/347/,13,yes
+Extensions,Trusted Extensions,https://www.postgresql.org/about/featurematrix/detail/347/,12,no
+Extensions,Trusted Extensions,https://www.postgresql.org/about/featurematrix/detail/347/,11,no
+Extensions,Trusted Extensions,https://www.postgresql.org/about/featurematrix/detail/347/,10,no
+Extensions,Trusted Extensions,https://www.postgresql.org/about/featurematrix/detail/347/,9.6,no
+Internationalisation,Column-level collation support,https://www.postgresql.org/about/featurematrix/detail/210/,13,yes
+Internationalisation,Column-level collation support,https://www.postgresql.org/about/featurematrix/detail/210/,12,yes
+Internationalisation,Column-level collation support,https://www.postgresql.org/about/featurematrix/detail/210/,11,yes
+Internationalisation,Column-level collation support,https://www.postgresql.org/about/featurematrix/detail/210/,10,yes
+Internationalisation,Column-level collation support,https://www.postgresql.org/about/featurematrix/detail/210/,9.6,yes
+Internationalisation,Database level Collation,https://www.postgresql.org/about/featurematrix/detail/133/,13,yes
+Internationalisation,Database level Collation,https://www.postgresql.org/about/featurematrix/detail/133/,12,yes
+Internationalisation,Database level Collation,https://www.postgresql.org/about/featurematrix/detail/133/,11,yes
+Internationalisation,Database level Collation,https://www.postgresql.org/about/featurematrix/detail/133/,10,yes
+Internationalisation,Database level Collation,https://www.postgresql.org/about/featurematrix/detail/133/,9.6,yes
+Internationalisation,EUC_JIS_2004/ SHIFT_JIS_2004 support,,13,yes
+Internationalisation,EUC_JIS_2004/ SHIFT_JIS_2004 support,,12,yes
+Internationalisation,EUC_JIS_2004/ SHIFT_JIS_2004 support,,11,yes
+Internationalisation,EUC_JIS_2004/ SHIFT_JIS_2004 support,,10,yes
+Internationalisation,EUC_JIS_2004/ SHIFT_JIS_2004 support,,9.6,yes
+Internationalisation,ICU collations,https://www.postgresql.org/docs/current/static/collation.html#id-1.6.10.4.5.7.5,13,yes
+Internationalisation,ICU collations,https://www.postgresql.org/docs/current/static/collation.html#id-1.6.10.4.5.7.5,12,yes
+Internationalisation,ICU collations,https://www.postgresql.org/docs/current/static/collation.html#id-1.6.10.4.5.7.5,11,yes
+Internationalisation,ICU collations,https://www.postgresql.org/docs/current/static/collation.html#id-1.6.10.4.5.7.5,10,yes
+Internationalisation,ICU collations,https://www.postgresql.org/docs/current/static/collation.html#id-1.6.10.4.5.7.5,9.6,no
+Internationalisation,"Multibyte encoding support, incl. UTF8",https://www.postgresql.org/about/featurematrix/detail/119/,13,yes
+Internationalisation,"Multibyte encoding support, incl. UTF8",https://www.postgresql.org/about/featurematrix/detail/119/,12,yes
+Internationalisation,"Multibyte encoding support, incl. UTF8",https://www.postgresql.org/about/featurematrix/detail/119/,11,yes
+Internationalisation,"Multibyte encoding support, incl. UTF8",https://www.postgresql.org/about/featurematrix/detail/119/,10,yes
+Internationalisation,"Multibyte encoding support, incl. UTF8",https://www.postgresql.org/about/featurematrix/detail/119/,9.6,yes
+Internationalisation,Multiple language support,https://babel.postgresql.org/,13,yes
+Internationalisation,Multiple language support,https://babel.postgresql.org/,12,yes
+Internationalisation,Multiple language support,https://babel.postgresql.org/,11,yes
+Internationalisation,Multiple language support,https://babel.postgresql.org/,10,yes
+Internationalisation,Multiple language support,https://babel.postgresql.org/,9.6,yes
+Internationalisation,Nondeterministic collations,https://www.postgresql.org/docs/12/collation.html#COLLATION-NONDETERMINISTIC,13,yes
+Internationalisation,Nondeterministic collations,https://www.postgresql.org/docs/12/collation.html#COLLATION-NONDETERMINISTIC,12,yes
+Internationalisation,Nondeterministic collations,https://www.postgresql.org/docs/12/collation.html#COLLATION-NONDETERMINISTIC,11,no
+Internationalisation,Nondeterministic collations,https://www.postgresql.org/docs/12/collation.html#COLLATION-NONDETERMINISTIC,10,no
+Internationalisation,Nondeterministic collations,https://www.postgresql.org/docs/12/collation.html#COLLATION-NONDETERMINISTIC,9.6,no
+Internationalisation,Unicode string literals and identifiers,https://www.postgresql.org/about/featurematrix/detail/157/,13,yes
+Internationalisation,Unicode string literals and identifiers,https://www.postgresql.org/about/featurematrix/detail/157/,12,yes
+Internationalisation,Unicode string literals and identifiers,https://www.postgresql.org/about/featurematrix/detail/157/,11,yes
+Internationalisation,Unicode string literals and identifiers,https://www.postgresql.org/about/featurematrix/detail/157/,10,yes
+Internationalisation,Unicode string literals and identifiers,https://www.postgresql.org/about/featurematrix/detail/157/,9.6,yes
+Internationalisation,UTF8 support on Windows,https://www.postgresql.org/about/featurematrix/detail/100/,13,yes
+Internationalisation,UTF8 support on Windows,https://www.postgresql.org/about/featurematrix/detail/100/,12,yes
+Internationalisation,UTF8 support on Windows,https://www.postgresql.org/about/featurematrix/detail/100/,11,yes
+Internationalisation,UTF8 support on Windows,https://www.postgresql.org/about/featurematrix/detail/100/,10,yes
+Internationalisation,UTF8 support on Windows,https://www.postgresql.org/about/featurematrix/detail/100/,9.6,yes
+Additional Modules (contrib),contrib/adminpack,https://www.postgresql.org/docs/current/static/adminpack.html,13,yes
+Additional Modules (contrib),contrib/adminpack,https://www.postgresql.org/docs/current/static/adminpack.html,12,yes
+Additional Modules (contrib),contrib/adminpack,https://www.postgresql.org/docs/current/static/adminpack.html,11,yes
+Additional Modules (contrib),contrib/adminpack,https://www.postgresql.org/docs/current/static/adminpack.html,10,yes
+Additional Modules (contrib),contrib/adminpack,https://www.postgresql.org/docs/current/static/adminpack.html,9.6,yes
+Additional Modules (contrib),contrib/auth_delay,https://www.postgresql.org/about/featurematrix/detail/198/,13,yes
+Additional Modules (contrib),contrib/auth_delay,https://www.postgresql.org/about/featurematrix/detail/198/,12,yes
+Additional Modules (contrib),contrib/auth_delay,https://www.postgresql.org/about/featurematrix/detail/198/,11,yes
+Additional Modules (contrib),contrib/auth_delay,https://www.postgresql.org/about/featurematrix/detail/198/,10,yes
+Additional Modules (contrib),contrib/auth_delay,https://www.postgresql.org/about/featurematrix/detail/198/,9.6,yes
+Additional Modules (contrib),contrib/autoexplain,https://www.postgresql.org/about/featurematrix/detail/145/,13,yes
+Additional Modules (contrib),contrib/autoexplain,https://www.postgresql.org/about/featurematrix/detail/145/,12,yes
+Additional Modules (contrib),contrib/autoexplain,https://www.postgresql.org/about/featurematrix/detail/145/,11,yes
+Additional Modules (contrib),contrib/autoexplain,https://www.postgresql.org/about/featurematrix/detail/145/,10,yes
+Additional Modules (contrib),contrib/autoexplain,https://www.postgresql.org/about/featurematrix/detail/145/,9.6,yes
+Additional Modules (contrib),contrib/btree_gin,https://www.postgresql.org/docs/8.4/static/btree-gin.html,13,yes
+Additional Modules (contrib),contrib/btree_gin,https://www.postgresql.org/docs/8.4/static/btree-gin.html,12,yes
+Additional Modules (contrib),contrib/btree_gin,https://www.postgresql.org/docs/8.4/static/btree-gin.html,11,yes
+Additional Modules (contrib),contrib/btree_gin,https://www.postgresql.org/docs/8.4/static/btree-gin.html,10,yes
+Additional Modules (contrib),contrib/btree_gin,https://www.postgresql.org/docs/8.4/static/btree-gin.html,9.6,yes
+Additional Modules (contrib),contrib/btree_gist,https://www.postgresql.org/docs/8.3/static/btree-gist.html,13,yes
+Additional Modules (contrib),contrib/btree_gist,https://www.postgresql.org/docs/8.3/static/btree-gist.html,12,yes
+Additional Modules (contrib),contrib/btree_gist,https://www.postgresql.org/docs/8.3/static/btree-gist.html,11,yes
+Additional Modules (contrib),contrib/btree_gist,https://www.postgresql.org/docs/8.3/static/btree-gist.html,10,yes
+Additional Modules (contrib),contrib/btree_gist,https://www.postgresql.org/docs/8.3/static/btree-gist.html,9.6,yes
+Additional Modules (contrib),contrib/citext,https://www.postgresql.org/about/featurematrix/detail/134/,13,yes
+Additional Modules (contrib),contrib/citext,https://www.postgresql.org/about/featurematrix/detail/134/,12,yes
+Additional Modules (contrib),contrib/citext,https://www.postgresql.org/about/featurematrix/detail/134/,11,yes
+Additional Modules (contrib),contrib/citext,https://www.postgresql.org/about/featurematrix/detail/134/,10,yes
+Additional Modules (contrib),contrib/citext,https://www.postgresql.org/about/featurematrix/detail/134/,9.6,yes
+Additional Modules (contrib),contrib/dblink,https://www.postgresql.org/docs/current/static/dblink.html,13,yes
+Additional Modules (contrib),contrib/dblink,https://www.postgresql.org/docs/current/static/dblink.html,12,yes
+Additional Modules (contrib),contrib/dblink,https://www.postgresql.org/docs/current/static/dblink.html,11,yes
+Additional Modules (contrib),contrib/dblink,https://www.postgresql.org/docs/current/static/dblink.html,10,yes
+Additional Modules (contrib),contrib/dblink,https://www.postgresql.org/docs/current/static/dblink.html,9.6,yes
+Additional Modules (contrib),contrib/dblink asyncronous notification support,https://www.postgresql.org/about/featurematrix/detail/175/,13,yes
+Additional Modules (contrib),contrib/dblink asyncronous notification support,https://www.postgresql.org/about/featurematrix/detail/175/,12,yes
+Additional Modules (contrib),contrib/dblink asyncronous notification support,https://www.postgresql.org/about/featurematrix/detail/175/,11,yes
+Additional Modules (contrib),contrib/dblink asyncronous notification support,https://www.postgresql.org/about/featurematrix/detail/175/,10,yes
+Additional Modules (contrib),contrib/dblink asyncronous notification support,https://www.postgresql.org/about/featurematrix/detail/175/,9.6,yes
+Additional Modules (contrib),contrib/file_fdw,https://www.postgresql.org/about/featurematrix/detail/199/,13,yes
+Additional Modules (contrib),contrib/file_fdw,https://www.postgresql.org/about/featurematrix/detail/199/,12,yes
+Additional Modules (contrib),contrib/file_fdw,https://www.postgresql.org/about/featurematrix/detail/199/,11,yes
+Additional Modules (contrib),contrib/file_fdw,https://www.postgresql.org/about/featurematrix/detail/199/,10,yes
+Additional Modules (contrib),contrib/file_fdw,https://www.postgresql.org/about/featurematrix/detail/199/,9.6,yes
+Additional Modules (contrib),contrib/fuzzystrmatch,https://www.postgresql.org/about/featurematrix/detail/107/,13,yes
+Additional Modules (contrib),contrib/fuzzystrmatch,https://www.postgresql.org/about/featurematrix/detail/107/,12,yes
+Additional Modules (contrib),contrib/fuzzystrmatch,https://www.postgresql.org/about/featurematrix/detail/107/,11,yes
+Additional Modules (contrib),contrib/fuzzystrmatch,https://www.postgresql.org/about/featurematrix/detail/107/,10,yes
+Additional Modules (contrib),contrib/fuzzystrmatch,https://www.postgresql.org/about/featurematrix/detail/107/,9.6,yes
+Additional Modules (contrib),contrib/hstore,https://www.postgresql.org/docs/current/static/hstore.html,13,yes
+Additional Modules (contrib),contrib/hstore,https://www.postgresql.org/docs/current/static/hstore.html,12,yes
+Additional Modules (contrib),contrib/hstore,https://www.postgresql.org/docs/current/static/hstore.html,11,yes
+Additional Modules (contrib),contrib/hstore,https://www.postgresql.org/docs/current/static/hstore.html,10,yes
+Additional Modules (contrib),contrib/hstore,https://www.postgresql.org/docs/current/static/hstore.html,9.6,yes
+Additional Modules (contrib),contrib/intarray,https://www.postgresql.org/docs/current/static/intarray.html,13,yes
+Additional Modules (contrib),contrib/intarray,https://www.postgresql.org/docs/current/static/intarray.html,12,yes
+Additional Modules (contrib),contrib/intarray,https://www.postgresql.org/docs/current/static/intarray.html,11,yes
+Additional Modules (contrib),contrib/intarray,https://www.postgresql.org/docs/current/static/intarray.html,10,yes
+Additional Modules (contrib),contrib/intarray,https://www.postgresql.org/docs/current/static/intarray.html,9.6,yes
+Additional Modules (contrib),contrib/isn (ISBN),https://www.postgresql.org/docs/current/static/isn.html,13,yes
+Additional Modules (contrib),contrib/isn (ISBN),https://www.postgresql.org/docs/current/static/isn.html,12,yes
+Additional Modules (contrib),contrib/isn (ISBN),https://www.postgresql.org/docs/current/static/isn.html,11,yes
+Additional Modules (contrib),contrib/isn (ISBN),https://www.postgresql.org/docs/current/static/isn.html,10,yes
+Additional Modules (contrib),contrib/isn (ISBN),https://www.postgresql.org/docs/current/static/isn.html,9.6,yes
+Additional Modules (contrib),contrib/ltree,https://www.postgresql.org/docs/current/static/ltree.html,13,yes
+Additional Modules (contrib),contrib/ltree,https://www.postgresql.org/docs/current/static/ltree.html,12,yes
+Additional Modules (contrib),contrib/ltree,https://www.postgresql.org/docs/current/static/ltree.html,11,yes
+Additional Modules (contrib),contrib/ltree,https://www.postgresql.org/docs/current/static/ltree.html,10,yes
+Additional Modules (contrib),contrib/ltree,https://www.postgresql.org/docs/current/static/ltree.html,9.6,yes
+Additional Modules (contrib),contrib/pageinspect,https://www.postgresql.org/docs/current/static/pageinspect.html,13,yes
+Additional Modules (contrib),contrib/pageinspect,https://www.postgresql.org/docs/current/static/pageinspect.html,12,yes
+Additional Modules (contrib),contrib/pageinspect,https://www.postgresql.org/docs/current/static/pageinspect.html,11,yes
+Additional Modules (contrib),contrib/pageinspect,https://www.postgresql.org/docs/current/static/pageinspect.html,10,yes
+Additional Modules (contrib),contrib/pageinspect,https://www.postgresql.org/docs/current/static/pageinspect.html,9.6,yes
+Additional Modules (contrib),contrib/passwordcheck,https://www.postgresql.org/docs/current/static/passwordcheck.html,13,yes
+Additional Modules (contrib),contrib/passwordcheck,https://www.postgresql.org/docs/current/static/passwordcheck.html,12,yes
+Additional Modules (contrib),contrib/passwordcheck,https://www.postgresql.org/docs/current/static/passwordcheck.html,11,yes
+Additional Modules (contrib),contrib/passwordcheck,https://www.postgresql.org/docs/current/static/passwordcheck.html,10,yes
+Additional Modules (contrib),contrib/passwordcheck,https://www.postgresql.org/docs/current/static/passwordcheck.html,9.6,yes
+Additional Modules (contrib),contrib/pgbench,https://www.postgresql.org/docs/current/static/pgbench.html,13,yes
+Additional Modules (contrib),contrib/pgbench,https://www.postgresql.org/docs/current/static/pgbench.html,12,yes
+Additional Modules (contrib),contrib/pgbench,https://www.postgresql.org/docs/current/static/pgbench.html,11,yes
+Additional Modules (contrib),contrib/pgbench,https://www.postgresql.org/docs/current/static/pgbench.html,10,yes
+Additional Modules (contrib),contrib/pgbench,https://www.postgresql.org/docs/current/static/pgbench.html,9.6,yes
+Additional Modules (contrib),contrib/pg_buffercache,https://www.postgresql.org/docs/current/static/pgbuffercache.html,13,yes
+Additional Modules (contrib),contrib/pg_buffercache,https://www.postgresql.org/docs/current/static/pgbuffercache.html,12,yes
+Additional Modules (contrib),contrib/pg_buffercache,https://www.postgresql.org/docs/current/static/pgbuffercache.html,11,yes
+Additional Modules (contrib),contrib/pg_buffercache,https://www.postgresql.org/docs/current/static/pgbuffercache.html,10,yes
+Additional Modules (contrib),contrib/pg_buffercache,https://www.postgresql.org/docs/current/static/pgbuffercache.html,9.6,yes
+Additional Modules (contrib),contrib/pg_freespacemap,https://www.postgresql.org/docs/current/static/pgfreespacemap.html,13,yes
+Additional Modules (contrib),contrib/pg_freespacemap,https://www.postgresql.org/docs/current/static/pgfreespacemap.html,12,yes
+Additional Modules (contrib),contrib/pg_freespacemap,https://www.postgresql.org/docs/current/static/pgfreespacemap.html,11,yes
+Additional Modules (contrib),contrib/pg_freespacemap,https://www.postgresql.org/docs/current/static/pgfreespacemap.html,10,yes
+Additional Modules (contrib),contrib/pg_freespacemap,https://www.postgresql.org/docs/current/static/pgfreespacemap.html,9.6,yes
+Additional Modules (contrib),contrib/pg_rewind,https://www.postgresql.org/docs/9.5/static/app-pgrewind.html,13,yes
+Additional Modules (contrib),contrib/pg_rewind,https://www.postgresql.org/docs/9.5/static/app-pgrewind.html,12,yes
+Additional Modules (contrib),contrib/pg_rewind,https://www.postgresql.org/docs/9.5/static/app-pgrewind.html,11,yes
+Additional Modules (contrib),contrib/pg_rewind,https://www.postgresql.org/docs/9.5/static/app-pgrewind.html,10,yes
+Additional Modules (contrib),contrib/pg_rewind,https://www.postgresql.org/docs/9.5/static/app-pgrewind.html,9.6,yes
+Additional Modules (contrib),contrib/pg_standby,https://www.postgresql.org/docs/current/static/pgstandby.html,13,yes
+Additional Modules (contrib),contrib/pg_standby,https://www.postgresql.org/docs/current/static/pgstandby.html,12,yes
+Additional Modules (contrib),contrib/pg_standby,https://www.postgresql.org/docs/current/static/pgstandby.html,11,yes
+Additional Modules (contrib),contrib/pg_standby,https://www.postgresql.org/docs/current/static/pgstandby.html,10,yes
+Additional Modules (contrib),contrib/pg_standby,https://www.postgresql.org/docs/current/static/pgstandby.html,9.6,yes
+Additional Modules (contrib),contrib/pg_stat_statements,https://www.postgresql.org/docs/8.4/static/pgstatstatements.html,13,yes
+Additional Modules (contrib),contrib/pg_stat_statements,https://www.postgresql.org/docs/8.4/static/pgstatstatements.html,12,yes
+Additional Modules (contrib),contrib/pg_stat_statements,https://www.postgresql.org/docs/8.4/static/pgstatstatements.html,11,yes
+Additional Modules (contrib),contrib/pg_stat_statements,https://www.postgresql.org/docs/8.4/static/pgstatstatements.html,10,yes
+Additional Modules (contrib),contrib/pg_stat_statements,https://www.postgresql.org/docs/8.4/static/pgstatstatements.html,9.6,yes
+Additional Modules (contrib),contrib/pg_stat_statements improvements,https://www.postgresql.org/about/featurematrix/detail/226/,13,yes
+Additional Modules (contrib),contrib/pg_stat_statements improvements,https://www.postgresql.org/about/featurematrix/detail/226/,12,yes
+Additional Modules (contrib),contrib/pg_stat_statements improvements,https://www.postgresql.org/about/featurematrix/detail/226/,11,yes
+Additional Modules (contrib),contrib/pg_stat_statements improvements,https://www.postgresql.org/about/featurematrix/detail/226/,10,yes
+Additional Modules (contrib),contrib/pg_stat_statements improvements,https://www.postgresql.org/about/featurematrix/detail/226/,9.6,yes
+Additional Modules (contrib),contrib/pgstattuple,https://www.postgresql.org/docs/current/static/pgstattuple.html,13,yes
+Additional Modules (contrib),contrib/pgstattuple,https://www.postgresql.org/docs/current/static/pgstattuple.html,12,yes
+Additional Modules (contrib),contrib/pgstattuple,https://www.postgresql.org/docs/current/static/pgstattuple.html,11,yes
+Additional Modules (contrib),contrib/pgstattuple,https://www.postgresql.org/docs/current/static/pgstattuple.html,10,yes
+Additional Modules (contrib),contrib/pgstattuple,https://www.postgresql.org/docs/current/static/pgstattuple.html,9.6,yes
+Additional Modules (contrib),contrib/pg_trgm,https://www.postgresql.org/docs/current/static/pgtrgm.html,13,yes
+Additional Modules (contrib),contrib/pg_trgm,https://www.postgresql.org/docs/current/static/pgtrgm.html,12,yes
+Additional Modules (contrib),contrib/pg_trgm,https://www.postgresql.org/docs/current/static/pgtrgm.html,11,yes
+Additional Modules (contrib),contrib/pg_trgm,https://www.postgresql.org/docs/current/static/pgtrgm.html,10,yes
+Additional Modules (contrib),contrib/pg_trgm,https://www.postgresql.org/docs/current/static/pgtrgm.html,9.6,yes
+Additional Modules (contrib),contrib/pg_trgm regular expressions indexing,https://www.postgresql.org/about/featurematrix/detail/246/,13,yes
+Additional Modules (contrib),contrib/pg_trgm regular expressions indexing,https://www.postgresql.org/about/featurematrix/detail/246/,12,yes
+Additional Modules (contrib),contrib/pg_trgm regular expressions indexing,https://www.postgresql.org/about/featurematrix/detail/246/,11,yes
+Additional Modules (contrib),contrib/pg_trgm regular expressions indexing,https://www.postgresql.org/about/featurematrix/detail/246/,10,yes
+Additional Modules (contrib),contrib/pg_trgm regular expressions indexing,https://www.postgresql.org/about/featurematrix/detail/246/,9.6,yes
+Additional Modules (contrib),contrib/pg_upgrade,https://www.postgresql.org/about/featurematrix/detail/196/,13,yes
+Additional Modules (contrib),contrib/pg_upgrade,https://www.postgresql.org/about/featurematrix/detail/196/,12,yes
+Additional Modules (contrib),contrib/pg_upgrade,https://www.postgresql.org/about/featurematrix/detail/196/,11,yes
+Additional Modules (contrib),contrib/pg_upgrade,https://www.postgresql.org/about/featurematrix/detail/196/,10,yes
+Additional Modules (contrib),contrib/pg_upgrade,https://www.postgresql.org/about/featurematrix/detail/196/,9.6,yes
+Additional Modules (contrib),contrib/pg_xlogdump,https://www.postgresql.org/about/featurematrix/detail/245/,13,yes
+Additional Modules (contrib),contrib/pg_xlogdump,https://www.postgresql.org/about/featurematrix/detail/245/,12,yes
+Additional Modules (contrib),contrib/pg_xlogdump,https://www.postgresql.org/about/featurematrix/detail/245/,11,yes
+Additional Modules (contrib),contrib/pg_xlogdump,https://www.postgresql.org/about/featurematrix/detail/245/,10,yes
+Additional Modules (contrib),contrib/pg_xlogdump,https://www.postgresql.org/about/featurematrix/detail/245/,9.6,yes
+Additional Modules (contrib),contrib/seg,https://www.postgresql.org/docs/current/static/seg.html,13,yes
+Additional Modules (contrib),contrib/seg,https://www.postgresql.org/docs/current/static/seg.html,12,yes
+Additional Modules (contrib),contrib/seg,https://www.postgresql.org/docs/current/static/seg.html,11,yes
+Additional Modules (contrib),contrib/seg,https://www.postgresql.org/docs/current/static/seg.html,10,yes
+Additional Modules (contrib),contrib/seg,https://www.postgresql.org/docs/current/static/seg.html,9.6,yes
+Additional Modules (contrib),contrib/sepgsql,https://www.postgresql.org/about/featurematrix/detail/197/,13,yes
+Additional Modules (contrib),contrib/sepgsql,https://www.postgresql.org/about/featurematrix/detail/197/,12,yes
+Additional Modules (contrib),contrib/sepgsql,https://www.postgresql.org/about/featurematrix/detail/197/,11,yes
+Additional Modules (contrib),contrib/sepgsql,https://www.postgresql.org/about/featurematrix/detail/197/,10,yes
+Additional Modules (contrib),contrib/sepgsql,https://www.postgresql.org/about/featurematrix/detail/197/,9.6,yes
+Additional Modules (contrib),contrib/sslinfo,https://www.postgresql.org/docs/current/static/sslinfo.html,13,yes
+Additional Modules (contrib),contrib/sslinfo,https://www.postgresql.org/docs/current/static/sslinfo.html,12,yes
+Additional Modules (contrib),contrib/sslinfo,https://www.postgresql.org/docs/current/static/sslinfo.html,11,yes
+Additional Modules (contrib),contrib/sslinfo,https://www.postgresql.org/docs/current/static/sslinfo.html,10,yes
+Additional Modules (contrib),contrib/sslinfo,https://www.postgresql.org/docs/current/static/sslinfo.html,9.6,yes
+Additional Modules (contrib),contrib/tablefunc,https://www.postgresql.org/docs/current/static/tablefunc.html,13,yes
+Additional Modules (contrib),contrib/tablefunc,https://www.postgresql.org/docs/current/static/tablefunc.html,12,yes
+Additional Modules (contrib),contrib/tablefunc,https://www.postgresql.org/docs/current/static/tablefunc.html,11,yes
+Additional Modules (contrib),contrib/tablefunc,https://www.postgresql.org/docs/current/static/tablefunc.html,10,yes
+Additional Modules (contrib),contrib/tablefunc,https://www.postgresql.org/docs/current/static/tablefunc.html,9.6,yes
+Additional Modules (contrib),contrib/tcn,https://www.postgresql.org/docs/9.2/static/tcn.html,13,yes
+Additional Modules (contrib),contrib/tcn,https://www.postgresql.org/docs/9.2/static/tcn.html,12,yes
+Additional Modules (contrib),contrib/tcn,https://www.postgresql.org/docs/9.2/static/tcn.html,11,yes
+Additional Modules (contrib),contrib/tcn,https://www.postgresql.org/docs/9.2/static/tcn.html,10,yes
+Additional Modules (contrib),contrib/tcn,https://www.postgresql.org/docs/9.2/static/tcn.html,9.6,yes
+Additional Modules (contrib),contrib/tsearch2 compat wrapper,https://www.postgresql.org/docs/9.2/static/tcn.html,13,Obsolete
+Additional Modules (contrib),contrib/tsearch2 compat wrapper,https://www.postgresql.org/docs/9.2/static/tcn.html,12,Obsolete
+Additional Modules (contrib),contrib/tsearch2 compat wrapper,https://www.postgresql.org/docs/9.2/static/tcn.html,11,Obsolete
+Additional Modules (contrib),contrib/tsearch2 compat wrapper,https://www.postgresql.org/docs/9.2/static/tcn.html,10,Obsolete
+Additional Modules (contrib),contrib/tsearch2 compat wrapper,https://www.postgresql.org/docs/9.2/static/tcn.html,9.6,yes
+Additional Modules (contrib),contrib/unaccent,https://www.postgresql.org/docs/current/static/unaccent.html,13,yes
+Additional Modules (contrib),contrib/unaccent,https://www.postgresql.org/docs/current/static/unaccent.html,12,yes
+Additional Modules (contrib),contrib/unaccent,https://www.postgresql.org/docs/current/static/unaccent.html,11,yes
+Additional Modules (contrib),contrib/unaccent,https://www.postgresql.org/docs/current/static/unaccent.html,10,yes
+Additional Modules (contrib),contrib/unaccent,https://www.postgresql.org/docs/current/static/unaccent.html,9.6,yes
+Additional Modules (contrib),contrib/uuid-ossp,https://www.postgresql.org/about/featurematrix/detail/88/,13,yes
+Additional Modules (contrib),contrib/uuid-ossp,https://www.postgresql.org/about/featurematrix/detail/88/,12,yes
+Additional Modules (contrib),contrib/uuid-ossp,https://www.postgresql.org/about/featurematrix/detail/88/,11,yes
+Additional Modules (contrib),contrib/uuid-ossp,https://www.postgresql.org/about/featurematrix/detail/88/,10,yes
+Additional Modules (contrib),contrib/uuid-ossp,https://www.postgresql.org/about/featurematrix/detail/88/,9.6,yes
+Additional Modules (contrib),KNN support for CUBE,https://www.postgresql.org/about/featurematrix/detail/288/,13,yes
+Additional Modules (contrib),KNN support for CUBE,https://www.postgresql.org/about/featurematrix/detail/288/,12,yes
+Additional Modules (contrib),KNN support for CUBE,https://www.postgresql.org/about/featurematrix/detail/288/,11,yes
+Additional Modules (contrib),KNN support for CUBE,https://www.postgresql.org/about/featurematrix/detail/288/,10,yes
+Additional Modules (contrib),KNN support for CUBE,https://www.postgresql.org/about/featurematrix/detail/288/,9.6,yes
+Network,Full SSL support,https://www.postgresql.org/docs/current/static/ssl-tcp.html,13,yes
+Network,Full SSL support,https://www.postgresql.org/docs/current/static/ssl-tcp.html,12,yes
+Network,Full SSL support,https://www.postgresql.org/docs/current/static/ssl-tcp.html,11,yes
+Network,Full SSL support,https://www.postgresql.org/docs/current/static/ssl-tcp.html,10,yes
+Network,Full SSL support,https://www.postgresql.org/docs/current/static/ssl-tcp.html,9.6,yes
+Network,IPv6 Support,https://www.postgresql.org/about/featurematrix/detail/67/,13,yes
+Network,IPv6 Support,https://www.postgresql.org/about/featurematrix/detail/67/,12,yes
+Network,IPv6 Support,https://www.postgresql.org/about/featurematrix/detail/67/,11,yes
+Network,IPv6 Support,https://www.postgresql.org/about/featurematrix/detail/67/,10,yes
+Network,IPv6 Support,https://www.postgresql.org/about/featurematrix/detail/67/,9.6,yes
+Network,V3 client protocol,https://www.postgresql.org/docs/current/static/protocol.html,13,yes
+Network,V3 client protocol,https://www.postgresql.org/docs/current/static/protocol.html,12,yes
+Network,V3 client protocol,https://www.postgresql.org/docs/current/static/protocol.html,11,yes
+Network,V3 client protocol,https://www.postgresql.org/docs/current/static/protocol.html,10,yes
+Network,V3 client protocol,https://www.postgresql.org/docs/current/static/protocol.html,9.6,yes
+Platforms,Microsoft Visual C++ Support,https://www.postgresql.org/about/featurematrix/detail/35/,13,yes
+Platforms,Microsoft Visual C++ Support,https://www.postgresql.org/about/featurematrix/detail/35/,12,yes
+Platforms,Microsoft Visual C++ Support,https://www.postgresql.org/about/featurematrix/detail/35/,11,yes
+Platforms,Microsoft Visual C++ Support,https://www.postgresql.org/about/featurematrix/detail/35/,10,yes
+Platforms,Microsoft Visual C++ Support,https://www.postgresql.org/about/featurematrix/detail/35/,9.6,yes
+Platforms,Native Windows Port,https://www.postgresql.org/about/featurematrix/detail/59/,13,yes
+Platforms,Native Windows Port,https://www.postgresql.org/about/featurematrix/detail/59/,12,yes
+Platforms,Native Windows Port,https://www.postgresql.org/about/featurematrix/detail/59/,11,yes
+Platforms,Native Windows Port,https://www.postgresql.org/about/featurematrix/detail/59/,10,yes
+Platforms,Native Windows Port,https://www.postgresql.org/about/featurematrix/detail/59/,9.6,yes
+Platforms,Spinlock support for the SuperH hardware platform,https://www.postgresql.org/about/featurematrix/detail/176/,13,yes
+Platforms,Spinlock support for the SuperH hardware platform,https://www.postgresql.org/about/featurematrix/detail/176/,12,yes
+Platforms,Spinlock support for the SuperH hardware platform,https://www.postgresql.org/about/featurematrix/detail/176/,11,yes
+Platforms,Spinlock support for the SuperH hardware platform,https://www.postgresql.org/about/featurematrix/detail/176/,10,yes
+Platforms,Spinlock support for the SuperH hardware platform,https://www.postgresql.org/about/featurematrix/detail/176/,9.6,yes
+Platforms,Sun Studio compiler on Linux,https://www.postgresql.org/about/featurematrix/detail/161/,13,yes
+Platforms,Sun Studio compiler on Linux,https://www.postgresql.org/about/featurematrix/detail/161/,12,yes
+Platforms,Sun Studio compiler on Linux,https://www.postgresql.org/about/featurematrix/detail/161/,11,yes
+Platforms,Sun Studio compiler on Linux,https://www.postgresql.org/about/featurematrix/detail/161/,10,yes
+Platforms,Sun Studio compiler on Linux,https://www.postgresql.org/about/featurematrix/detail/161/,9.6,yes
+Platforms,Windows x64 support,https://www.postgresql.org/about/featurematrix/detail/195/,13,yes
+Platforms,Windows x64 support,https://www.postgresql.org/about/featurematrix/detail/195/,12,yes
+Platforms,Windows x64 support,https://www.postgresql.org/about/featurematrix/detail/195/,11,yes
+Platforms,Windows x64 support,https://www.postgresql.org/about/featurematrix/detail/195/,10,yes
+Platforms,Windows x64 support,https://www.postgresql.org/about/featurematrix/detail/195/,9.6,yes
