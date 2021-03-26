@@ -169,11 +169,11 @@ Partitioning & Inheritance,Partitioning by a hash key ,,12,yes
 Partitioning & Inheritance,Partitioning by a hash key ,,11,yes
 Partitioning & Inheritance,Partitioning by a hash key ,,10,no
 Partitioning & Inheritance,Partitioning by a hash key ,,9.6,no
-Partitioning & Inheritance,Support for PRIMARY KEY, FOREIGN KEY, indexes, and triggers on partitioned tables,,13,yes
-Partitioning & Inheritance,Support for PRIMARY KEY, FOREIGN KEY, indexes, and triggers on partitioned tables,,12,yes
-Partitioning & Inheritance,Support for PRIMARY KEY, FOREIGN KEY, indexes, and triggers on partitioned tables,,11,yes
-Partitioning & Inheritance,Support for PRIMARY KEY, FOREIGN KEY, indexes, and triggers on partitioned tables,,10,no
-Partitioning & Inheritance,Support for PRIMARY KEY, FOREIGN KEY, indexes, and triggers on partitioned tables,,9.6,no
+Partitioning & Inheritance,"Support for PRIMARY KEY, FOREIGN KEY, indexes, and triggers on partitioned tables",,13,yes
+Partitioning & Inheritance,"Support for PRIMARY KEY, FOREIGN KEY, indexes, and triggers on partitioned tables",,12,yes
+Partitioning & Inheritance,"Support for PRIMARY KEY, FOREIGN KEY, indexes, and triggers on partitioned tables",,11,yes
+Partitioning & Inheritance,"Support for PRIMARY KEY, FOREIGN KEY, indexes, and triggers on partitioned tables",,10,no
+Partitioning & Inheritance,"Support for PRIMARY KEY, FOREIGN KEY, indexes, and triggers on partitioned tables",,9.6,no
 Partitioning & Inheritance,UPDATE on a partition key,https://www.postgresql.org/about/featurematrix/detail/312/,13,yes
 Partitioning & Inheritance,UPDATE on a partition key,https://www.postgresql.org/about/featurematrix/detail/312/,12,yes
 Partitioning & Inheritance,UPDATE on a partition key,https://www.postgresql.org/about/featurematrix/detail/312/,11,yes
